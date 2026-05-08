@@ -1,0 +1,161 @@
+{
+  "generatedAt": "2026-05-08T15:16:32+09:00",
+  "events": [
+    {
+      "id": "kagakukan-04c478fd964e",
+      "title": "名探偵コナン 閃光の宇宙船（ペイロード）",
+      "description": "プラネタリウムのイベント。どなたでも",
+      "source": {
+        "id": "kagakukan",
+        "name": "はまぎん こども宇宙科学館",
+        "url": "https://www.yokohama-kagakukan.jp/event/"
+      },
+      "venue": {
+        "name": "はまぎん こども宇宙科学館",
+        "address": "横浜市磯子区洋光台5-2-1",
+        "ward": "磯子区",
+        "lat": 35.3601,
+        "lon": 139.6125
+      },
+      "dates": [
+        {
+          "start": "2026-04-25T00:00:00+09:00",
+          "end": "2026-07-17T00:00:00+09:00"
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "ageText": "どなたでも",
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "text": "入館料が必要(詳細は公式ページ)"
+      },
+      "indoor": true,
+      "categories": [
+        "科学"
+      ],
+      "registrationRequired": false,
+      "registrationDeadline": null,
+      "url": "https://www.yokohama-kagakukan.jp/event/detail/925/1778166000/",
+      "fetchedAt": "2026-05-08T15:16:32+09:00"
+    },
+    {
+      "id": "kagakukan-878625243832",
+      "title": "プラネタリウム　ドラえもん　時間のひみつ",
+      "description": "プラネタリウムのイベント。どなたでも",
+      "source": {
+        "id": "kagakukan",
+        "name": "はまぎん こども宇宙科学館",
+        "url": "https://www.yokohama-kagakukan.jp/event/"
+      },
+      "venue": {
+        "name": "はまぎん こども宇宙科学館",
+        "address": "横浜市磯子区洋光台5-2-1",
+        "ward": "磯子区",
+        "lat": 35.3601,
+        "lon": 139.6125
+      },
+      "dates": [
+        {
+          "start": "2026-04-25T00:00:00+09:00",
+          "end": "2026-07-17T00:00:00+09:00"
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "ageText": "どなたでも",
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "text": "入館料が必要(詳細は公式ページ)"
+      },
+      "indoor": true,
+      "categories": [
+        "科学"
+      ],
+      "registrationRequired": false,
+      "registrationDeadline": null,
+      "url": "https://www.yokohama-kagakukan.jp/event/detail/927/1778166000/",
+      "fetchedAt": "2026-05-08T15:16:32+09:00"
+    },
+    {
+      "id": "kagakukan-3ac5db656055",
+      "title": "シャカぱた板がえし",
+      "description": "工作のイベント。どなたでも",
+      "source": {
+        "id": "kagakukan",
+        "name": "はまぎん こども宇宙科学館",
+        "url": "https://www.yokohama-kagakukan.jp/event/"
+      },
+      "venue": {
+        "name": "はまぎん こども宇宙科学館",
+        "address": "横浜市磯子区洋光台5-2-1",
+        "ward": "磯子区",
+        "lat": 35.3601,
+        "lon": 139.6125
+      },
+      "dates": [
+        {
+          "start": "2026-05-10T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "ageText": "どなたでも",
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "text": "入館料が必要(詳細は公式ページ)"
+      },
+      "indoor": true,
+      "categories": [
+        "工作"
+      ],
+      "registrationRequired": false,
+      "registrationDeadline": null,
+      "url": "https://www.yokohama-kagakukan.jp/event/detail/936/1778338800/",
+      "fetchedAt": "2026-05-08T15:16:32+09:00"
+    },
+    {
+      "id": "kagakukan-9173d0944e15",
+      "title": "神奈川・横浜DC特別投影　「Yokohama宇宙クルーズ　～幾億の星々をめぐる銀河の大航海～」",
+      "description": "プラネタリウムのイベント。どなたでも",
+      "source": {
+        "id": "kagakukan",
+        "name": "はまぎん こども宇宙科学館",
+        "url": "https://www.yokohama-kagakukan.jp/event/"
+      },
+      "venue": {
+        "name": "はまぎん こども宇宙科学館",
+        "address": "横浜市磯子区洋光台5-2-1",
+        "ward": "磯子区",
+        "lat": 35.3601,
+        "lon": 139.6125
+      },
+      "dates": [
+        {
+          "start": "2026-06-02T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "ageText": "どなたでも",
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "text": "入館料が必要(詳細は公式ページ)"
+      },
+      "indoor": true,
+      "categories": [
+        "科学"
+      ],
+      "registrationRequired": false,
+      "registrationDeadline": null,
+      "url": "https://www.yokohama-kagakukan.jp/event/detail/928/1780326000/",
+      "fetchedAt": "2026-05-08T15:16:32+09:00"
+    }
+  ]
+}

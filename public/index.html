@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YokoKid — 横浜の子どもイベント</title>
+<meta name="description" content="横浜市で開催される子ども向けイベントを集約。複数の条件で絞り込んで、お気に入りの条件を保存できます。">
+<meta property="og:title" content="YokoKid — 横浜の子どもイベント">
+<meta property="og:description" content="横浜市の子ども向けイベントを一覧・絞り込みできるサイト">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%88%3C/text%3E%3C/svg%3E">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: { extend: { colors: { brand: { 500: '#0ea5e9', 600: '#0284c7', 700: '#0369a1' } } } }
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.10/dayjs.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.10/plugin/isBetween.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.10/locale/ja.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    if (window.dayjs_plugin_isBetween) dayjs.extend(window.dayjs_plugin_isBetween);
+    dayjs.locale('ja');
+  });
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.5/dist/cdn.min.js"></script>
+<script defer src="./app.js"></script>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif; }
+  [x-cloak] { display: none !important; }
+  .chip { display: inline-flex; align-items: center; padding: 0.125rem 0.5rem; border-radius: 9999px; font-size: 0.75rem; line-height: 1rem; }
+</style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+<header class="bg-white border-b border-slate-200 sticky top-0 z-30">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <span class="text-2xl">🎈</span>
+      <div>
+        <h1 class="text-lg font-bold text-brand-700 leading-tight">YokoKid</h1>
+        <p class="text-xs text-slate-500 leading-tight">横浜の子どもイベント</p>
+      </div>
+    </div>
+    <nav class="text-xs text-slate-500 flex gap-3">
+      <a href="./about.html" class="hover:text-brand-600">このサイトについて</a>
+      <a href="./terms.html" class="hover:text-brand-600">利用規約</a>
+      <a href="./privacy.html" class="hover:text-brand-600">プライバシー</a>
+    </nav>
+  </div>
+</header>
+
+<main x-data="yokokid()" x-init="init()" x-cloak class="max-w-6xl mx-auto px-4 py-6">
+
+  <!-- Loading / Error -->
+  <template x-if="loading">
+    <div class="text-center py-16 text-slate-500">読み込み中…</div>
+  </template>
+  <template x-if="error">
+    <div class="bg-red-50 border border-red-200 text-red-700 rounded-md p-4" x-text="error"></div>
+  </template>
+
+  <template x-if="!loading && !error">
+    <div class="grid grid-cols-1 lg:grid-cols-[300px_1fr] gap-6">
+
+      <!-- Filter sidebar -->
+      <aside class="space-y-5 lg:sticky lg:top-20 lg:self-start">
+
+        <!-- Mobile toggle -->
+        <button class="lg:hidden w-full bg-white border border-slate-200 rounded-md py-2 px-3 text-sm font-medium flex items-center justify-between" @click="filtersOpen = !filtersOpen">
+          <span>条件を絞り込む</span>
+          <span x-text="filtersOpen ? '▲' : '▼'"></span>
+        </button>
+
+        <div :class="filtersOpen ? 'block' : 'hidden lg:block'" class="bg-white border border-slate-200 rounded-md p-4 space-y-4">
+
+          <!-- Date -->
+          <div>
+            <h3 class="text-xs font-semibold text-slate-700 mb-2">日付</h3>
+            <div class="flex flex-wrap gap-1">
+              <template x-for="opt in dateOptions" :key="opt.id">
+                <button
+                  class="text-xs px-2 py-1 rounded border"
+                  :class="filters.dateRange === opt.id ? 'bg-brand-600 text-white border-brand-600' : 'bg-white text-slate-700 border-slate-300 hover:border-brand-500'"
+                  @click="filters.dateRange = opt.id"
+                  x-text="opt.label"></button>
+              </template>
+            </div>
+          </div>
+
+          <!-- Age -->
+          <div>
+            <h3 class="text-xs font-semibold text-slate-700 mb-2">対象年齢</h3>
+            <div class="flex items-center gap-2">
+              <select x-model.number="filters.age" class="text-sm border border-slate-300 rounded px-2 py-1">
+                <option :value="null">指定なし</option>
+                <template x-for="n in 13" :key="n - 1">
+                  <option :value="n - 1" x-text="(n - 1) + '歳'"></option>
+                </template>
+              </select>
+              <span class="text-xs text-slate-500">この年齢に合うイベント</span>
+            </div>
+          </div>
+
+          <!-- Ward -->
+          <div>
+            <h3 class="text-xs font-semibold text-slate-700 mb-2">エリア（区）</h3>
+            <div class="flex flex-wrap gap-1 max-h-32 overflow-y-auto">
+              <template x-for="ward in availableWards" :key="ward">
+                <label class="cursor-pointer">
+                  <input type="checkbox" :value="ward" x-model="filters.wards" class="hidden peer">
+                  <span class="text-xs px-2 py-1 rounded border bg-white text-slate-700 border-slate-300 peer-checked:bg-brand-600 peer-checked:text-white peer-checked:border-brand-600 inline-block" x-text="ward"></span>
+                </label>
+              </template>
+            </div>
+          </div>
+
+          <!-- Price -->
+          <div>
+            <h3 class="text-xs font-semibold text-slate-700 mb-2">料金</h3>
+            <div class="flex flex-wrap gap-1">
+              <template x-for="opt in priceOptions" :key="opt.id">
+                <button
+                  class="text-xs px-2 py-1 rounded border"
+                  :class="filters.price === opt.id ? 'bg-brand-600 text-white border-brand-600' : 'bg-white text-slate-700 border-slate-300 hover:border-brand-500'"
+                  @click="filters.price = opt.id"
+                  x-text="opt.label"></button>
+              </template>
+            </div>
+          </div>
+
+          <!-- Indoor/Outdoor -->
+          <div>
+            <h3 class="text-xs font-semibold text-slate-700 mb-2">屋内 / 屋外</h3>
+            <div class="flex gap-1">
+              <template x-for="opt in indoorOptions" :key="opt.id">
+                <button
+                  class="text-xs px-2 py-1 rounded border"
+                  :class="filters.indoor === opt.id ? 'bg-brand-600 text-white border-brand-600' : 'bg-white text-slate-700 border-slate-300 hover:border-brand-500'"
+                  @click="filters.indoor = opt.id"
+                  x-text="opt.label"></button>
+              </template>
+            </div>
+          </div>
+
+          <!-- Categories -->
+          <div>
+            <h3 class="text-xs font-semibold text-slate-700 mb-2">カテゴリ</h3>
+            <div class="flex flex-wrap gap-1">
+              <template x-for="cat in availableCategories" :key="cat">
+                <label class="cursor-pointer">
+                  <input type="checkbox" :value="cat" x-model="filters.categories" class="hidden peer">
+                  <span class="text-xs px-2 py-1 rounded border bg-white text-slate-700 border-slate-300 peer-checked:bg-brand-600 peer-checked:text-white peer-checked:border-brand-600 inline-block" x-text="cat"></span>
+                </label>
+              </template>
+            </div>
+          </div>
+
+          <!-- Registration -->
+          <div>
+            <h3 class="text-xs font-semibold text-slate-700 mb-2">予約</h3>
+            <div class="flex gap-1">
+              <template x-for="opt in registrationOptions" :key="opt.id">
+                <button
+                  class="text-xs px-2 py-1 rounded border"
+                  :class="filters.registration === opt.id ? 'bg-brand-600 text-white border-brand-600' : 'bg-white text-slate-700 border-slate-300 hover:border-brand-500'"
+                  @click="filters.registration = opt.id"
+                  x-text="opt.label"></button>
+              </template>
+            </div>
+          </div>
+
+          <!-- Reset -->
+          <div class="pt-2 border-t border-slate-100">
+            <button class="text-xs text-slate-500 hover:text-brand-600" @click="resetFilters()">条件をリセット</button>
+          </div>
+        </div>
+
+        <!-- Save current filter -->
+        <div class="bg-white border border-slate-200 rounded-md p-4">
+          <h3 class="text-xs font-semibold text-slate-700 mb-2">この条件を保存</h3>
+          <div class="flex gap-2">
+            <input type="text" x-model="newFilterName" placeholder="例: 西区・無料" class="flex-1 text-sm border border-slate-300 rounded px-2 py-1">
+            <button class="bg-brand-600 hover:bg-brand-700 text-white text-sm px-3 py-1 rounded disabled:opacity-50" :disabled="!newFilterName.trim()" @click="saveCurrentFilter()">保存</button>
+          </div>
+        </div>
+
+        <!-- Saved filters -->
+        <div class="bg-white border border-slate-200 rounded-md p-4" x-show="savedFilters.length > 0">
+          <h3 class="text-xs font-semibold text-slate-700 mb-2">保存した条件</h3>
+          <ul class="space-y-1">
+            <template x-for="(sf, idx) in savedFilters" :key="sf.id">
+              <li class="flex items-center justify-between gap-2 text-sm">
+                <button class="flex-1 text-left hover:text-brand-600 truncate"
+                  :class="appliedSavedId === sf.id ? 'text-brand-700 font-semibold' : 'text-slate-700'"
+                  @click="applySavedFilter(sf)" x-text="sf.name"></button>
+                <button class="text-xs text-slate-400 hover:text-red-500" @click="deleteSavedFilter(idx)" title="削除">✕</button>
+              </li>
+            </template>
+          </ul>
+        </div>
+
+      </aside>
+
+      <!-- Results -->
+      <section>
+        <div class="flex items-baseline justify-between mb-3">
+          <p class="text-sm text-slate-600">
+            <span class="font-semibold text-slate-800" x-text="filteredEvents.length"></span>件のイベント
+            <span x-show="appliedSavedId" class="text-brand-600 ml-2 text-xs">（<span x-text="appliedSavedName"></span> を適用中）</span>
+          </p>
+          <p class="text-xs text-slate-400" x-show="generatedAt">最終更新: <span x-text="formatGeneratedAt()"></span></p>
+        </div>
+
+        <template x-if="filteredEvents.length === 0">
+          <div class="bg-white border border-dashed border-slate-300 rounded-md p-10 text-center text-slate-500">
+            <p>条件に合うイベントが見つかりませんでした。</p>
+            <p class="text-xs mt-1">条件を緩めるか、リセットしてみてください。</p>
+          </div>
+        </template>
+
+        <ul class="space-y-3">
+          <template x-for="ev in filteredEvents" :key="ev.id">
+            <li class="bg-white border border-slate-200 rounded-md p-4 hover:border-brand-500 transition">
+              <div class="flex items-start gap-3">
+                <div class="flex-shrink-0 text-center bg-brand-50 border border-brand-200 rounded px-2 py-1 min-w-[60px]">
+                  <div class="text-[10px] text-brand-700" x-text="formatMonth(ev.dates[0].start)"></div>
+                  <div class="text-xl font-bold text-brand-700 leading-none" x-text="formatDay(ev.dates[0].start)"></div>
+                  <div class="text-[10px] text-brand-700" x-text="formatWeekday(ev.dates[0].start)"></div>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <h2 class="font-semibold text-slate-900">
+                    <a :href="ev.url" target="_blank" rel="noopener noreferrer" class="hover:text-brand-600" x-text="ev.title"></a>
+                  </h2>
+                  <p class="text-xs text-slate-500 mt-0.5" x-text="formatTimeRange(ev.dates[0])"></p>
+                  <p class="text-sm text-slate-600 mt-1 line-clamp-2" x-text="ev.description"></p>
+                  <div class="flex flex-wrap gap-1.5 mt-2">
+                    <span class="chip bg-slate-100 text-slate-700" x-text="ev.venue.name + ' / ' + (ev.venue.ward || '')"></span>
+                    <span class="chip bg-slate-100 text-slate-700" x-show="ev.ageText" x-text="ev.ageText"></span>
+                    <span class="chip" :class="ev.price.type === 'free' ? 'bg-emerald-100 text-emerald-800' : 'bg-amber-100 text-amber-800'" x-text="ev.price.text"></span>
+                    <span class="chip bg-slate-100 text-slate-700" x-show="ev.indoor === true">屋内</span>
+                    <span class="chip bg-slate-100 text-slate-700" x-show="ev.indoor === false">屋外</span>
+                    <template x-for="cat in ev.categories" :key="cat">
+                      <span class="chip bg-brand-50 text-brand-700" x-text="cat"></span>
+                    </template>
+                    <span class="chip bg-rose-100 text-rose-800" x-show="ev.registrationRequired">要予約</span>
+                  </div>
+                  <div class="flex items-center justify-between mt-2 text-xs text-slate-400">
+                    <span>ソース: <a :href="ev.source.url" target="_blank" rel="noopener noreferrer" class="hover:text-brand-600 underline" x-text="ev.source.name"></a></span>
+                    <a :href="ev.url" target="_blank" rel="noopener noreferrer" class="text-brand-600 hover:text-brand-700">詳細を見る →</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </template>
+        </ul>
+      </section>
+
+    </div>
+  </template>
+
+</main>
+
+<footer class="border-t border-slate-200 mt-12 py-6 text-center text-xs text-slate-500">
+  <div class="max-w-6xl mx-auto px-4 space-y-1">
+    <p>YokoKid は横浜の子ども向けイベントを集約する個人運営のサイトです。</p>
+    <p>
+      <a href="./about.html" class="hover:text-brand-600">このサイトについて</a> ・
+      <a href="./terms.html" class="hover:text-brand-600">利用規約</a> ・
+      <a href="./privacy.html" class="hover:text-brand-600">プライバシー</a>
+    </p>
+    <p class="text-slate-400">情報は各主催者の発表が原則です。参加前に公式ページでご確認ください。</p>
+  </div>
+</footer>
+
+</body>
+</html>

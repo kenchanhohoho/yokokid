@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>このサイトについて — YokoKid</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>body { font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif; }</style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+<header class="bg-white border-b border-slate-200">
+  <div class="max-w-3xl mx-auto px-4 py-3 flex items-center gap-2">
+    <a href="./index.html" class="flex items-center gap-2 hover:opacity-80">
+      <span class="text-2xl">🎈</span>
+      <span class="font-bold text-sky-700">YokoKid</span>
+    </a>
+  </div>
+</header>
+<main class="max-w-3xl mx-auto px-4 py-8 space-y-6 prose prose-sm">
+  <h1 class="text-2xl font-bold">このサイトについて</h1>
+
+  <section>
+    <h2 class="text-lg font-semibold mt-4 mb-2">YokoKid とは</h2>
+    <p>YokoKid は、横浜市内で開催される子ども向けイベント情報を、複数の公開情報源から集約して一覧表示する個人運営の Web サービスです。家族でのおでかけ計画を立てやすくすることを目的としています。</p>
+  </section>
+
+  <section>
+    <h2 class="text-lg font-semibold mt-4 mb-2">情報源（Phase 0）</h2>
+    <p>初版では下記の公開ソースから情報を取得しています。最新・正確な情報は必ず各主催者の公式ページでご確認ください。</p>
+    <ul class="list-disc pl-6 space-y-1">
+      <li><a href="https://pamatoco.city.yokohama.lg.jp/" class="text-sky-700 hover:underline" target="_blank" rel="noopener">パマトコ（横浜市子育て応援サイト）</a></li>
+      <li><a href="https://www.yokohama-kagakukan.jp/" class="text-sky-700 hover:underline" target="_blank" rel="noopener">はまぎん こども宇宙科学館</a></li>
+      <li><a href="https://www.yokohama-anpanman.jp/" class="text-sky-700 hover:underline" target="_blank" rel="noopener">アンパンマンこどもミュージアム横浜</a></li>
+      <li><a href="https://www.city.yokohama.lg.jp/kurashi/kosodate-kyoiku/library/" class="text-sky-700 hover:underline" target="_blank" rel="noopener">横浜市立図書館</a></li>
+      <li><a href="https://www.city.yokohama.lg.jp/nishi/" class="text-sky-700 hover:underline" target="_blank" rel="noopener">横浜市西区役所</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="text-lg font-semibold mt-4 mb-2">更新頻度</h2>
+    <p>イベント情報は1日1回、自動取得して更新しています。各主催者によるイベントの追加・変更・中止が即時に反映されない場合があります。</p>
+  </section>
+
+  <section>
+    <h2 class="text-lg font-semibold mt-4 mb-2">今後の予定</h2>
+    <ul class="list-disc pl-6 space-y-1">
+      <li>v1.1: LINE プッシュ通知（保存した条件にマッチしたイベントを週次で通知）</li>
+      <li>v1.2: 児童館・図書館・地区センターなど小粒イベントの収録拡大</li>
+      <li>v2.0: 関東広域への対応</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="text-lg font-semibold mt-4 mb-2">フィードバック</h2>
+    <p>不具合の報告や情報源の追加リクエストは GitHub Issues、または運営者連絡先までお願いします。</p>
+  </section>
+
+  <p class="pt-6"><a href="./index.html" class="text-sky-700 hover:underline">← 一覧に戻る</a></p>
+</main>
+</body>
+</html>
