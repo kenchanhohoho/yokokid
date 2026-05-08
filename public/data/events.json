@@ -1,6 +1,162 @@
 {
-  "generatedAt": "2026-05-08T15:59:02+09:00",
+  "generatedAt": "2026-05-08T16:24:27+09:00",
   "events": [
+    {
+      "id": "kagakukan-04c478fd964e",
+      "title": "名探偵コナン 閃光の宇宙船（ペイロード）",
+      "description": "プラネタリウムのイベント。どなたでも",
+      "source": {
+        "id": "kagakukan",
+        "name": "はまぎん こども宇宙科学館",
+        "url": "https://www.yokohama-kagakukan.jp/event/"
+      },
+      "venue": {
+        "name": "はまぎん こども宇宙科学館",
+        "address": "横浜市磯子区洋光台5-2-1",
+        "ward": "磯子区",
+        "lat": 35.3601,
+        "lon": 139.6125
+      },
+      "dates": [
+        {
+          "start": "2026-04-25T00:00:00+09:00",
+          "end": "2026-07-17T00:00:00+09:00"
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "ageText": "どなたでも",
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "text": "入館料が必要(詳細は公式ページ)"
+      },
+      "indoor": true,
+      "categories": [
+        "科学"
+      ],
+      "registrationRequired": false,
+      "registrationDeadline": null,
+      "url": "https://www.yokohama-kagakukan.jp/event/detail/925/1778166000/",
+      "fetchedAt": "2026-05-08T16:24:00+09:00"
+    },
+    {
+      "id": "kagakukan-878625243832",
+      "title": "プラネタリウム　ドラえもん　時間のひみつ",
+      "description": "プラネタリウムのイベント。どなたでも",
+      "source": {
+        "id": "kagakukan",
+        "name": "はまぎん こども宇宙科学館",
+        "url": "https://www.yokohama-kagakukan.jp/event/"
+      },
+      "venue": {
+        "name": "はまぎん こども宇宙科学館",
+        "address": "横浜市磯子区洋光台5-2-1",
+        "ward": "磯子区",
+        "lat": 35.3601,
+        "lon": 139.6125
+      },
+      "dates": [
+        {
+          "start": "2026-04-25T00:00:00+09:00",
+          "end": "2026-07-17T00:00:00+09:00"
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "ageText": "どなたでも",
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "text": "入館料が必要(詳細は公式ページ)"
+      },
+      "indoor": true,
+      "categories": [
+        "科学"
+      ],
+      "registrationRequired": false,
+      "registrationDeadline": null,
+      "url": "https://www.yokohama-kagakukan.jp/event/detail/927/1778166000/",
+      "fetchedAt": "2026-05-08T16:24:00+09:00"
+    },
+    {
+      "id": "kagakukan-3ac5db656055",
+      "title": "シャカぱた板がえし",
+      "description": "工作のイベント。どなたでも",
+      "source": {
+        "id": "kagakukan",
+        "name": "はまぎん こども宇宙科学館",
+        "url": "https://www.yokohama-kagakukan.jp/event/"
+      },
+      "venue": {
+        "name": "はまぎん こども宇宙科学館",
+        "address": "横浜市磯子区洋光台5-2-1",
+        "ward": "磯子区",
+        "lat": 35.3601,
+        "lon": 139.6125
+      },
+      "dates": [
+        {
+          "start": "2026-05-10T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "ageText": "どなたでも",
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "text": "入館料が必要(詳細は公式ページ)"
+      },
+      "indoor": true,
+      "categories": [
+        "工作"
+      ],
+      "registrationRequired": false,
+      "registrationDeadline": null,
+      "url": "https://www.yokohama-kagakukan.jp/event/detail/936/1778338800/",
+      "fetchedAt": "2026-05-08T16:24:00+09:00"
+    },
+    {
+      "id": "kagakukan-9173d0944e15",
+      "title": "神奈川・横浜DC特別投影　「Yokohama宇宙クルーズ　～幾億の星々をめぐる銀河の大航海～」",
+      "description": "プラネタリウムのイベント。どなたでも",
+      "source": {
+        "id": "kagakukan",
+        "name": "はまぎん こども宇宙科学館",
+        "url": "https://www.yokohama-kagakukan.jp/event/"
+      },
+      "venue": {
+        "name": "はまぎん こども宇宙科学館",
+        "address": "横浜市磯子区洋光台5-2-1",
+        "ward": "磯子区",
+        "lat": 35.3601,
+        "lon": 139.6125
+      },
+      "dates": [
+        {
+          "start": "2026-06-02T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "ageText": "どなたでも",
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "text": "入館料が必要(詳細は公式ページ)"
+      },
+      "indoor": true,
+      "categories": [
+        "科学"
+      ],
+      "registrationRequired": false,
+      "registrationDeadline": null,
+      "url": "https://www.yokohama-kagakukan.jp/event/detail/928/1780326000/",
+      "fetchedAt": "2026-05-08T16:24:00+09:00"
+    },
     {
       "id": "zoorasia-3cd465ab3a60",
       "title": "アカカワイノシシ誕生日特別ガイド",
@@ -39,7 +195,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/post-558780.php",
-      "fetchedAt": "2026-05-08T15:59:00+09:00"
+      "fetchedAt": "2026-05-08T16:24:00+09:00"
     },
     {
       "id": "zoorasia-02645a9b2f61",
@@ -79,7 +235,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/-sos2026.php",
-      "fetchedAt": "2026-05-08T15:59:00+09:00"
+      "fetchedAt": "2026-05-08T16:24:00+09:00"
     },
     {
       "id": "zoorasia-c7217e273cf0",
@@ -119,7 +275,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/post-558776.php",
-      "fetchedAt": "2026-05-08T15:59:00+09:00"
+      "fetchedAt": "2026-05-08T16:24:00+09:00"
     },
     {
       "id": "zoorasia-018bb71ddaf4",
@@ -159,7 +315,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/-otter.php",
-      "fetchedAt": "2026-05-08T15:59:00+09:00"
+      "fetchedAt": "2026-05-08T16:24:00+09:00"
     },
     {
       "id": "zoorasia-945741277eed",
@@ -199,7 +355,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/jr-2026.php",
-      "fetchedAt": "2026-05-08T15:59:00+09:00"
+      "fetchedAt": "2026-05-08T16:24:00+09:00"
     },
     {
       "id": "zoorasia-f12afa468834",
@@ -239,7 +395,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/post-558744.php",
-      "fetchedAt": "2026-05-08T15:59:00+09:00"
+      "fetchedAt": "2026-05-08T16:24:00+09:00"
     },
     {
       "id": "zoorasia-b9c67a6e9491",
@@ -279,7 +435,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/post-558716.php",
-      "fetchedAt": "2026-05-08T15:59:00+09:00"
+      "fetchedAt": "2026-05-08T16:24:00+09:00"
     },
     {
       "id": "zoorasia-b5d3d9b29318",
@@ -319,7 +475,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/post-558689.php",
-      "fetchedAt": "2026-05-08T15:59:00+09:00"
+      "fetchedAt": "2026-05-08T16:24:00+09:00"
     },
     {
       "id": "nogeyama-3627ab506c92",
@@ -359,7 +515,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/nogeyama/details/bird2026.php",
-      "fetchedAt": "2026-05-08T15:59:01+09:00"
+      "fetchedAt": "2026-05-08T16:24:00+09:00"
     },
     {
       "id": "kodomonokuni-d63289be7cbd",
@@ -400,7 +556,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.kodomonokuni.org/event/event_topics/detail.html?id=141",
-      "fetchedAt": "2026-05-08T15:59:02+09:00"
+      "fetchedAt": "2026-05-08T16:24:01+09:00"
     },
     {
       "id": "kodomonokuni-80a9c944d5e3",
@@ -441,7 +597,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.kodomonokuni.org/event/event_topics/detail.html?id=280",
-      "fetchedAt": "2026-05-08T15:59:02+09:00"
+      "fetchedAt": "2026-05-08T16:24:01+09:00"
     },
     {
       "id": "kodomonokuni-8141b79301fd",
@@ -482,7 +638,947 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.kodomonokuni.org/event/event_topics/detail.html?id=60",
-      "fetchedAt": "2026-05-08T15:59:02+09:00"
+      "fetchedAt": "2026-05-08T16:24:01+09:00"
+    },
+    {
+      "id": "yokohama_city-201a6ce2b717",
+      "title": "プレイルームでお話会",
+      "description": "「ぽっぽっぽっ」のみなさんと、指人やパネルシアター、お話を聞いてみんなで楽しい時間を過ごしましょう",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "藤棚地区センター",
+        "address": "藤棚地区センター",
+        "ward": "西区",
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-05-08T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 1,
+      "ageMax": 6,
+      "ageText": "乳幼児",
+      "price": {
+        "type": "free",
+        "amount": 0,
+        "text": "無料"
+      },
+      "indoor": true,
+      "categories": [
+        "体験"
+      ],
+      "registrationRequired": false,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=108739",
+      "fetchedAt": "2026-05-08T16:24:08+09:00"
+    },
+    {
+      "id": "yokohama_city-315099a3232d",
+      "title": "親子deリトミック(1)",
+      "description": "手遊び、おはなし、リトミック、工作",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "軽井沢コミュニティハウス",
+        "address": "軽井沢コミュニティハウス",
+        "ward": "西区",
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-05-08T10:30:00+09:00",
+          "end": "2026-05-08T11:30:00+09:00"
+        }
+      ],
+      "ageMin": 1,
+      "ageMax": 1,
+      "ageText": "1歳半～",
+      "price": {
+        "type": "paid",
+        "amount": 100,
+        "text": "100円"
+      },
+      "indoor": null,
+      "categories": [
+        "音楽",
+        "工作"
+      ],
+      "registrationRequired": true,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=108780",
+      "fetchedAt": "2026-05-08T16:24:08+09:00"
+    },
+    {
+      "id": "yokohama_city-51d167840d48",
+      "title": "多目的ホール開放デー",
+      "description": "子育て中のママ・パパ・お子さんを対象に多目的ホールを開放します。小さいお子さん用のすべり台・ボールプール・積み木などを用意しています。",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "屏風ヶ浦地域ケアプラザ",
+        "address": "屏風ヶ浦地域ケアプラザ",
+        "ward": "磯子区",
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-05-08T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 6,
+      "ageText": "未就学児の親子",
+      "price": {
+        "type": "free",
+        "amount": 0,
+        "text": "無料"
+      },
+      "indoor": true,
+      "categories": [
+        "体験"
+      ],
+      "registrationRequired": true,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=110033",
+      "fetchedAt": "2026-05-08T16:24:12+09:00"
+    },
+    {
+      "id": "yokohama_city-f76560541049",
+      "title": "不動原公園であそぼう!",
+      "description": "外に出て、公園で遊んでみよう♪ ※天候によって中止の場合あり",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "都筑区子育て支援センターポポラ サテライト",
+        "address": "不動原公園(池辺町2469)",
+        "ward": "都筑区",
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-05-08T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 1,
+      "ageMax": 6,
+      "ageText": "乳幼児",
+      "price": {
+        "type": "free",
+        "amount": 0,
+        "text": "無料"
+      },
+      "indoor": false,
+      "categories": [
+        "外遊び"
+      ],
+      "registrationRequired": false,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=109218",
+      "fetchedAt": "2026-05-08T16:24:15+09:00"
+    },
+    {
+      "id": "yokohama_city-d543a3751152",
+      "title": "親子リズム遊び(前期全10回)",
+      "description": "親子・お友だちと、音楽に合わせて体を動かそう。季節の行事もあります。",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "つづきの丘小学校コミュニティハウス",
+        "address": "つづきの丘小学校コミュニティハウス",
+        "ward": "都筑区",
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-05-08T10:00:00+09:00",
+          "end": "2026-05-08T11:00:00+09:00"
+        }
+      ],
+      "ageMin": 1,
+      "ageMax": 1,
+      "ageText": "1歳半～3歳のお子様と保護者",
+      "price": {
+        "type": "paid",
+        "amount": 3000,
+        "text": "3000円/全10回"
+      },
+      "indoor": null,
+      "categories": [
+        "音楽"
+      ],
+      "registrationRequired": true,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=109010",
+      "fetchedAt": "2026-05-08T16:24:15+09:00"
+    },
+    {
+      "id": "yokohama_city-113cd517b4ee",
+      "title": "赤ちゃんとスキンシップ",
+      "description": "赤ちゃんの地区センターデビューの講座です。親子でふれあい遊びを楽しく行います。 お友達作りの場ともなります。",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "上矢部地区センター",
+        "address": "上矢部地区センター",
+        "ward": "戸塚区",
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-05-08T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 0,
+      "ageText": "首がすわった0歳児と保護者",
+      "price": {
+        "type": "free",
+        "amount": 0,
+        "text": "無料"
+      },
+      "indoor": true,
+      "categories": [
+        "体験"
+      ],
+      "registrationRequired": true,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=101246",
+      "fetchedAt": "2026-05-08T16:24:16+09:00"
+    },
+    {
+      "id": "yokohama_city-cbc3de100117",
+      "title": "ちびっこ体操(3歳児～小学1年生)",
+      "description": "お友達と一緒におもいっきり身体を動かそう!跳び箱・マット・鉄棒・平均台などいろいろな用具を使って楽しく体操をします。",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "上矢部地区センター",
+        "address": "体育室",
+        "ward": "戸塚区",
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-05-08T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 3,
+      "ageMax": 3,
+      "ageText": "3歳児～小学1年生",
+      "price": {
+        "type": "paid",
+        "amount": 1500,
+        "text": "各時間 1,500円(全3回分)"
+      },
+      "indoor": true,
+      "categories": [
+        "スポーツ"
+      ],
+      "registrationRequired": true,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=106545",
+      "fetchedAt": "2026-05-08T16:24:16+09:00"
+    },
+    {
+      "id": "yokohama_city-058222aeaefd",
+      "title": "文化庁伝統文化親子教室「日本」を語れる子!",
+      "description": "小学生でも自分ひとりでゆかたを着られるようになります。ゆかたを着ての立居振舞。七夕、十五夜、お茶、お正月・節分など年中行事についての体験。美しい言葉使い、マナーなどを学びます。お母さまも一緒に浴衣の着付けをしてみませんか?",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "大場みすずが丘地区センター",
+        "address": "和室",
+        "ward": null,
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-05-17T10:00:00+09:00",
+          "end": "2026-05-17T12:00:00+09:00"
+        }
+      ],
+      "ageMin": 6,
+      "ageMax": 18,
+      "ageText": "こども・青少年",
+      "price": {
+        "type": "paid",
+        "amount": 3500,
+        "text": "3500円(親子参加5000円) 浴衣のクリーニング代500円別"
+      },
+      "indoor": true,
+      "categories": [
+        "体験"
+      ],
+      "registrationRequired": true,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=109405",
+      "fetchedAt": "2026-05-08T16:24:17+09:00"
+    },
+    {
+      "id": "yokohama_city-2fa78ca532de",
+      "title": "原宿)フリースペース SORA",
+      "description": "学校に行っているけれども… 学校に行っていないけれども… どこかで一緒にお話しできる人はいないのかな… 親同士集まっておしゃべりする場はないかな… 原宿地域ケアプラザでは月1回、友だちと大人に出会える居場所づくりを応援しています。 のびのびと自由な時間をケアプラザで過ごしませんか?",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "原宿地域ケアプラザ",
+        "address": "原宿地域ケアプラザ",
+        "ward": null,
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-05-26T13:00:00+09:00",
+          "end": "2026-05-26T15:00:00+09:00"
+        }
+      ],
+      "ageMin": 6,
+      "ageMax": 18,
+      "ageText": "小学生～高校生の親子(お子さんだけの参加も可)",
+      "price": {
+        "type": "paid",
+        "amount": 100,
+        "text": "100円/1人 お茶・保険代含む"
+      },
+      "indoor": null,
+      "categories": [
+        "体験"
+      ],
+      "registrationRequired": false,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=109301",
+      "fetchedAt": "2026-05-08T16:24:17+09:00"
+    },
+    {
+      "id": "yokohama_city-f7c1ea2c92f0",
+      "title": "月イチカレー",
+      "description": "NPO法人みんなのまちづくりクラブは放課後の居場所として、毎月第4金曜日に「月イチカレー」を開催しております。ボランティアのみなさんが作ったカレーを地域のお子さんたちにおいしく食べてもらたい! ボランティアや余っている食材の提供も大歓迎です。",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "上矢部地区センター",
+        "address": "上矢部地区センター",
+        "ward": null,
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-05-22T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 1,
+      "ageMax": 6,
+      "ageText": "乳幼児  \n\t\t\t\t\t\t\t\t\tこども・青少年  \n\t\t\t\t\t\t\t\t\t一般",
+      "price": {
+        "type": "free",
+        "amount": 0,
+        "text": "子ども無料 大人200円"
+      },
+      "indoor": true,
+      "categories": [
+        "体験"
+      ],
+      "registrationRequired": false,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=86316",
+      "fetchedAt": "2026-05-08T16:24:18+09:00"
+    },
+    {
+      "id": "yokohama_city-375661bf7e08",
+      "title": "無料フリーマーケット",
+      "description": "クリーニング済みの子供服、婦人服、学生服や未使用の食器など、持ち込みも持ち帰りも全て無料の交換会です。持ち込む物がなくても、お持ち帰りができます。",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "上矢部地区センター",
+        "address": "上矢部地区センター",
+        "ward": null,
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-05-24T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 6,
+      "ageMax": 18,
+      "ageText": "こども・青少年  \n\t\t\t\t\t\t\t\t\t一般  \n\t\t\t\t\t\t\t\t\tシニア",
+      "price": {
+        "type": "free",
+        "amount": 0,
+        "text": "無料"
+      },
+      "indoor": true,
+      "categories": [
+        "体験"
+      ],
+      "registrationRequired": false,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=64965",
+      "fetchedAt": "2026-05-08T16:24:18+09:00"
+    },
+    {
+      "id": "yokohama_city-5a7efe48a81d",
+      "title": "Kids Hip Hop 2604",
+      "description": "楽しい音楽に乗って踊り、運動能力を高めていきます。 リズム感、柔軟性、協調性を養います。",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "菅田地区センター",
+        "address": "菅田地区センター",
+        "ward": null,
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-05-11T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 1,
+      "ageMax": 6,
+      "ageText": "乳幼児  \n\t\t\t\t\t\t\t\t\tこども・青少年",
+      "price": {
+        "type": "paid",
+        "amount": 7000,
+        "text": "(1)リトル  7,000円、(2)ジュニア(1) 8,000円、(3)ジュニア(2)  9,000円(それぞれ全10回分)"
+      },
+      "indoor": true,
+      "categories": [
+        "音楽",
+        "スポーツ"
+      ],
+      "registrationRequired": true,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=109252",
+      "fetchedAt": "2026-05-08T16:24:19+09:00"
+    },
+    {
+      "id": "yokohama_city-ed3271266098",
+      "title": "小学生のためのアクティブ英会話2604",
+      "description": "英語を使って表現ができるようになるための講座です。 ファーストステップクラスでは、表現をするための基礎となる単語などを楽しく学びます。 基礎がある程度できると、アップグレードクラスで英語での表現のしかたを学ぶことができます。",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "菅田地区センター",
+        "address": "菅田地区センター",
+        "ward": null,
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-05-09T13:00:00+09:00",
+          "end": "2026-05-09T14:50:00+09:00"
+        }
+      ],
+      "ageMin": 6,
+      "ageMax": 12,
+      "ageText": "小学生",
+      "price": {
+        "type": "paid",
+        "amount": 4800,
+        "text": "全6回4,800円"
+      },
+      "indoor": true,
+      "categories": [
+        "体験"
+      ],
+      "registrationRequired": true,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=109253",
+      "fetchedAt": "2026-05-08T16:24:19+09:00"
+    },
+    {
+      "id": "yokohama_city-2c8b032ad27b",
+      "title": "すげたドラム教室2604水曜Kidsクラス",
+      "description": "音楽の楽しみを知り、リズムを身につけます。また音楽の基盤をつくります。",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "菅田地区センター",
+        "address": "菅田地区センター",
+        "ward": null,
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-05-13T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 4,
+      "ageMax": 4,
+      "ageText": "4歳～高校生",
+      "price": {
+        "type": "paid",
+        "amount": 12000,
+        "text": "12,000円(3ヶ月6回分)"
+      },
+      "indoor": true,
+      "categories": [
+        "音楽",
+        "体験"
+      ],
+      "registrationRequired": true,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=109259",
+      "fetchedAt": "2026-05-08T16:24:20+09:00"
+    },
+    {
+      "id": "yokohama_city-cb881277a99d",
+      "title": "助産師さんの子育て相談",
+      "description": "助産師さんによる子育て相談",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "北山田小学校コミュニティハウス",
+        "address": "北山田小学校コミュニティハウス",
+        "ward": null,
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-06-03T10:00:00+09:00",
+          "end": "2026-06-03T12:00:00+09:00"
+        }
+      ],
+      "ageMin": 1,
+      "ageMax": 6,
+      "ageText": "乳幼児",
+      "price": {
+        "type": "free",
+        "amount": 0,
+        "text": "無料"
+      },
+      "indoor": null,
+      "categories": [
+        "体験"
+      ],
+      "registrationRequired": false,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=109994",
+      "fetchedAt": "2026-05-08T16:24:21+09:00"
+    },
+    {
+      "id": "yokohama_city-f94d0bb6afd3",
+      "title": "おはなし花束のおはなし会 ～なつ～",
+      "description": "親子で楽しめるおはなし会です。今回は夏のおはなしです。",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "白幡地区センター",
+        "address": "白幡地区センター",
+        "ward": null,
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-07-11T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 6,
+      "ageText": "未就学児と保護者",
+      "price": {
+        "type": "free",
+        "amount": 0,
+        "text": "無料"
+      },
+      "indoor": true,
+      "categories": [
+        "読み聞かせ"
+      ],
+      "registrationRequired": true,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=110108",
+      "fetchedAt": "2026-05-08T16:24:22+09:00"
+    },
+    {
+      "id": "yokohama_city-7b440a0b4150",
+      "title": "かなちく子育て応援タイム「あんよちゃん、集まれ!～親子で一緒にカラダあそび～」",
+      "description": "この時期だからこそ触れ合える親子で楽しむカラダあそびです。",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "白幡地区センター",
+        "address": "白幡地区センター",
+        "ward": null,
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-06-26T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 1,
+      "ageMax": 3,
+      "ageText": "1～3歳児と保護者※あんよの出来る子ども",
+      "price": {
+        "type": "free",
+        "amount": 0,
+        "text": "無料"
+      },
+      "indoor": true,
+      "categories": [
+        "体験"
+      ],
+      "registrationRequired": true,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=110028",
+      "fetchedAt": "2026-05-08T16:24:22+09:00"
+    },
+    {
+      "id": "yokohama_city-b4ab15b7932d",
+      "title": "望遠鏡工作教室",
+      "description": "望遠鏡を手作りします。使い方も学びます。",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "白幡地区センター",
+        "address": "白幡地区センター",
+        "ward": null,
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-07-05T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 6,
+      "ageMax": 18,
+      "ageText": "こども・青少年  \n\t\t\t\t\t\t\t\t\t一般",
+      "price": {
+        "type": "paid",
+        "amount": 4200,
+        "text": "4,200円"
+      },
+      "indoor": true,
+      "categories": [
+        "工作",
+        "体験"
+      ],
+      "registrationRequired": true,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=110102",
+      "fetchedAt": "2026-05-08T16:24:23+09:00"
+    },
+    {
+      "id": "yokohama_city-332286abc228",
+      "title": "舞岡)乳幼児発育測定会",
+      "description": "現役保育士による身長、体重測定会。",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "舞岡地区センター",
+        "address": "舞岡地区センター",
+        "ward": null,
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-06-23T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 1,
+      "ageMax": 6,
+      "ageText": "乳幼児",
+      "price": {
+        "type": "free",
+        "amount": 0,
+        "text": "無料"
+      },
+      "indoor": true,
+      "categories": [
+        "体験"
+      ],
+      "registrationRequired": false,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=110312",
+      "fetchedAt": "2026-05-08T16:24:23+09:00"
+    },
+    {
+      "id": "yokohama_city-6bcd6c476aab",
+      "title": "おこづかいのつけかた教室(おこづかい帳付き)",
+      "description": "「見えないお金」の時代だからこそ、現金を使ってお買い物をしてみましょう。商品はノートや鉛筆、シール、アクセサリーで一つ10円から。お買い物後は、おこづかい帳をつけます。この機会に、お金の大切さをみんなで考えてみませんか?弟妹の参加もOKです。",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "本牧原地域ケアプラザ",
+        "address": "本牧原地域ケアプラザ",
+        "ward": null,
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-07-25T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 6,
+      "ageMax": 18,
+      "ageText": "こども・青少年  \n\t\t\t\t\t\t\t\t\t一般",
+      "price": {
+        "type": "paid",
+        "amount": 300,
+        "text": "300円(お買い物代)"
+      },
+      "indoor": null,
+      "categories": [
+        "体験"
+      ],
+      "registrationRequired": true,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=110529",
+      "fetchedAt": "2026-05-08T16:24:24+09:00"
+    },
+    {
+      "id": "yokohama_city-cfe3adf221f8",
+      "title": "親子で作る体にやさしいデザート",
+      "description": "薬膳の考えを取り入れ、豆腐を使った体にやさしいデザートを作ります。お持ち帰りもあります。",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "野毛地区センター",
+        "address": "野毛地区センター",
+        "ward": null,
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-07-31T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 6,
+      "ageMax": 18,
+      "ageText": "エプロン・三角巾・布巾・手拭きタオル持参",
+      "price": {
+        "type": "paid",
+        "amount": 1000,
+        "text": "1000円"
+      },
+      "indoor": true,
+      "categories": [
+        "体験"
+      ],
+      "registrationRequired": true,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=110508",
+      "fetchedAt": "2026-05-08T16:24:24+09:00"
+    },
+    {
+      "id": "yokohama_city-f1450f69ceee",
+      "title": "午後の音楽会 第191回 プレミアムコンサート 華麗なるアルゼンチンタンゴの調べ",
+      "description": "月に一度、特別な時間をお届けする「午後の音楽会」シリーズ。 平日の午後に、いつもより少しだけおしゃれをして、コンサートに出かけてみませんか? ブエノスアイレスの街角に息づくリズムと踊りを、タンゴの名曲とともにお届けします 【出演】 Mentao(メンターオ) 池田達則(バンドネオン)、専光秀紀(1stバイオリン)、堀内日南子(2ndバイオリン)、松永裕平(ピアノ)、田中伸司(コントラバス) 【ゲス",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "栄区民文化センター リリス",
+        "address": "栄区民文化センター リリス",
+        "ward": null,
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-09-17T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 6,
+      "ageMax": 18,
+      "ageText": "こども・青少年  \n\t\t\t\t\t\t\t\t\t一般  \n\t\t\t\t\t\t\t\t\tシニア",
+      "price": {
+        "type": "paid",
+        "amount": 2500,
+        "text": "全席指定 2,500円"
+      },
+      "indoor": true,
+      "categories": [
+        "音楽"
+      ],
+      "registrationRequired": true,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=110524",
+      "fetchedAt": "2026-05-08T16:24:25+09:00"
+    },
+    {
+      "id": "yokohama_city-9f8b0adc4905",
+      "title": "ペットボトルのキラキラ万華鏡",
+      "description": "ペットボトルにキラキラする材料を入れ、鏡の筒を取りつけます。 周りも飾って出来上がり。外から見てもかわいい万華鏡です。",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "滝頭コミュニティハウス",
+        "address": "滝頭コミュニティハウス",
+        "ward": null,
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-08-01T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 6,
+      "ageText": "3才～一般(未就学児は保護者同伴)",
+      "price": {
+        "type": "paid",
+        "amount": 500,
+        "text": "500円"
+      },
+      "indoor": null,
+      "categories": [
+        "体験"
+      ],
+      "registrationRequired": true,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=110435",
+      "fetchedAt": "2026-05-08T16:24:26+09:00"
+    },
+    {
+      "id": "yokohama_city-5dd285efb51b",
+      "title": "パソコン・スマホ相談会",
+      "description": "複数の講師陣によるサロン形式の相談会です。お申し込み時にパソコン・スマホに関する疑問をヒアリングさせていただきます。",
+      "source": {
+        "id": "yokohama_city",
+        "name": "横浜市 市民利用施設等イベント情報",
+        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
+      },
+      "venue": {
+        "name": "野毛地区センター",
+        "address": "野毛地区センター",
+        "ward": null,
+        "lat": null,
+        "lon": null
+      },
+      "dates": [
+        {
+          "start": "2026-07-25T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 6,
+      "ageMax": 18,
+      "ageText": "ご自分でパソコン・スマホの操作が出来る方",
+      "price": {
+        "type": "varies",
+        "amount": null,
+        "text": "500"
+      },
+      "indoor": true,
+      "categories": [
+        "体験"
+      ],
+      "registrationRequired": true,
+      "registrationDeadline": null,
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=109561",
+      "fetchedAt": "2026-05-08T16:24:27+09:00"
     }
   ]
 }
