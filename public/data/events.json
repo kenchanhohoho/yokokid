@@ -1,162 +1,6 @@
 {
-  "generatedAt": "2026-05-08T15:48:52+09:00",
+  "generatedAt": "2026-05-08T15:59:02+09:00",
   "events": [
-    {
-      "id": "kagakukan-04c478fd964e",
-      "title": "名探偵コナン 閃光の宇宙船（ペイロード）",
-      "description": "プラネタリウムのイベント。どなたでも",
-      "source": {
-        "id": "kagakukan",
-        "name": "はまぎん こども宇宙科学館",
-        "url": "https://www.yokohama-kagakukan.jp/event/"
-      },
-      "venue": {
-        "name": "はまぎん こども宇宙科学館",
-        "address": "横浜市磯子区洋光台5-2-1",
-        "ward": "磯子区",
-        "lat": 35.3601,
-        "lon": 139.6125
-      },
-      "dates": [
-        {
-          "start": "2026-04-25T00:00:00+09:00",
-          "end": "2026-07-17T00:00:00+09:00"
-        }
-      ],
-      "ageMin": 0,
-      "ageMax": 99,
-      "ageText": "どなたでも",
-      "price": {
-        "type": "paid",
-        "amount": null,
-        "text": "入館料が必要(詳細は公式ページ)"
-      },
-      "indoor": true,
-      "categories": [
-        "科学"
-      ],
-      "registrationRequired": false,
-      "registrationDeadline": null,
-      "url": "https://www.yokohama-kagakukan.jp/event/detail/925/1778166000/",
-      "fetchedAt": "2026-05-08T15:48:52+09:00"
-    },
-    {
-      "id": "kagakukan-878625243832",
-      "title": "プラネタリウム　ドラえもん　時間のひみつ",
-      "description": "プラネタリウムのイベント。どなたでも",
-      "source": {
-        "id": "kagakukan",
-        "name": "はまぎん こども宇宙科学館",
-        "url": "https://www.yokohama-kagakukan.jp/event/"
-      },
-      "venue": {
-        "name": "はまぎん こども宇宙科学館",
-        "address": "横浜市磯子区洋光台5-2-1",
-        "ward": "磯子区",
-        "lat": 35.3601,
-        "lon": 139.6125
-      },
-      "dates": [
-        {
-          "start": "2026-04-25T00:00:00+09:00",
-          "end": "2026-07-17T00:00:00+09:00"
-        }
-      ],
-      "ageMin": 0,
-      "ageMax": 99,
-      "ageText": "どなたでも",
-      "price": {
-        "type": "paid",
-        "amount": null,
-        "text": "入館料が必要(詳細は公式ページ)"
-      },
-      "indoor": true,
-      "categories": [
-        "科学"
-      ],
-      "registrationRequired": false,
-      "registrationDeadline": null,
-      "url": "https://www.yokohama-kagakukan.jp/event/detail/927/1778166000/",
-      "fetchedAt": "2026-05-08T15:48:52+09:00"
-    },
-    {
-      "id": "kagakukan-3ac5db656055",
-      "title": "シャカぱた板がえし",
-      "description": "工作のイベント。どなたでも",
-      "source": {
-        "id": "kagakukan",
-        "name": "はまぎん こども宇宙科学館",
-        "url": "https://www.yokohama-kagakukan.jp/event/"
-      },
-      "venue": {
-        "name": "はまぎん こども宇宙科学館",
-        "address": "横浜市磯子区洋光台5-2-1",
-        "ward": "磯子区",
-        "lat": 35.3601,
-        "lon": 139.6125
-      },
-      "dates": [
-        {
-          "start": "2026-05-10T00:00:00+09:00",
-          "end": null
-        }
-      ],
-      "ageMin": 0,
-      "ageMax": 99,
-      "ageText": "どなたでも",
-      "price": {
-        "type": "paid",
-        "amount": null,
-        "text": "入館料が必要(詳細は公式ページ)"
-      },
-      "indoor": true,
-      "categories": [
-        "工作"
-      ],
-      "registrationRequired": false,
-      "registrationDeadline": null,
-      "url": "https://www.yokohama-kagakukan.jp/event/detail/936/1778338800/",
-      "fetchedAt": "2026-05-08T15:48:52+09:00"
-    },
-    {
-      "id": "kagakukan-9173d0944e15",
-      "title": "神奈川・横浜DC特別投影　「Yokohama宇宙クルーズ　～幾億の星々をめぐる銀河の大航海～」",
-      "description": "プラネタリウムのイベント。どなたでも",
-      "source": {
-        "id": "kagakukan",
-        "name": "はまぎん こども宇宙科学館",
-        "url": "https://www.yokohama-kagakukan.jp/event/"
-      },
-      "venue": {
-        "name": "はまぎん こども宇宙科学館",
-        "address": "横浜市磯子区洋光台5-2-1",
-        "ward": "磯子区",
-        "lat": 35.3601,
-        "lon": 139.6125
-      },
-      "dates": [
-        {
-          "start": "2026-06-02T00:00:00+09:00",
-          "end": null
-        }
-      ],
-      "ageMin": 0,
-      "ageMax": 99,
-      "ageText": "どなたでも",
-      "price": {
-        "type": "paid",
-        "amount": null,
-        "text": "入館料が必要(詳細は公式ページ)"
-      },
-      "indoor": true,
-      "categories": [
-        "科学"
-      ],
-      "registrationRequired": false,
-      "registrationDeadline": null,
-      "url": "https://www.yokohama-kagakukan.jp/event/detail/928/1780326000/",
-      "fetchedAt": "2026-05-08T15:48:52+09:00"
-    },
     {
       "id": "zoorasia-3cd465ab3a60",
       "title": "アカカワイノシシ誕生日特別ガイド",
@@ -195,7 +39,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/post-558780.php",
-      "fetchedAt": "2026-05-08T15:48:52+09:00"
+      "fetchedAt": "2026-05-08T15:59:00+09:00"
     },
     {
       "id": "zoorasia-02645a9b2f61",
@@ -235,7 +79,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/-sos2026.php",
-      "fetchedAt": "2026-05-08T15:48:52+09:00"
+      "fetchedAt": "2026-05-08T15:59:00+09:00"
     },
     {
       "id": "zoorasia-c7217e273cf0",
@@ -275,7 +119,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/post-558776.php",
-      "fetchedAt": "2026-05-08T15:48:52+09:00"
+      "fetchedAt": "2026-05-08T15:59:00+09:00"
     },
     {
       "id": "zoorasia-018bb71ddaf4",
@@ -315,7 +159,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/-otter.php",
-      "fetchedAt": "2026-05-08T15:48:52+09:00"
+      "fetchedAt": "2026-05-08T15:59:00+09:00"
     },
     {
       "id": "zoorasia-945741277eed",
@@ -355,7 +199,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/jr-2026.php",
-      "fetchedAt": "2026-05-08T15:48:52+09:00"
+      "fetchedAt": "2026-05-08T15:59:00+09:00"
     },
     {
       "id": "zoorasia-f12afa468834",
@@ -395,7 +239,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/post-558744.php",
-      "fetchedAt": "2026-05-08T15:48:52+09:00"
+      "fetchedAt": "2026-05-08T15:59:00+09:00"
     },
     {
       "id": "zoorasia-b9c67a6e9491",
@@ -435,7 +279,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/post-558716.php",
-      "fetchedAt": "2026-05-08T15:48:52+09:00"
+      "fetchedAt": "2026-05-08T15:59:00+09:00"
     },
     {
       "id": "zoorasia-b5d3d9b29318",
@@ -475,7 +319,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/post-558689.php",
-      "fetchedAt": "2026-05-08T15:48:52+09:00"
+      "fetchedAt": "2026-05-08T15:59:00+09:00"
     },
     {
       "id": "nogeyama-3627ab506c92",
@@ -515,7 +359,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/nogeyama/details/bird2026.php",
-      "fetchedAt": "2026-05-08T15:48:52+09:00"
+      "fetchedAt": "2026-05-08T15:59:01+09:00"
     },
     {
       "id": "kodomonokuni-d63289be7cbd",
@@ -556,7 +400,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.kodomonokuni.org/event/event_topics/detail.html?id=141",
-      "fetchedAt": "2026-05-08T15:48:52+09:00"
+      "fetchedAt": "2026-05-08T15:59:02+09:00"
     },
     {
       "id": "kodomonokuni-80a9c944d5e3",
@@ -597,7 +441,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.kodomonokuni.org/event/event_topics/detail.html?id=280",
-      "fetchedAt": "2026-05-08T15:48:52+09:00"
+      "fetchedAt": "2026-05-08T15:59:02+09:00"
     },
     {
       "id": "kodomonokuni-8141b79301fd",
@@ -638,7 +482,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.kodomonokuni.org/event/event_topics/detail.html?id=60",
-      "fetchedAt": "2026-05-08T15:48:52+09:00"
+      "fetchedAt": "2026-05-08T15:59:02+09:00"
     }
   ]
 }
