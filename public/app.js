@@ -1,5 +1,6 @@
 // YokoKid frontend logic. Pure Alpine.js component, no build step.
-// Loads /data/events.json and exposes a filter/saved-filter UI.
+// Registered via the alpine:init event so Alpine evaluates the component
+// after the registration handler runs, regardless of script load order.
 
 const STORAGE_KEY = 'yokokid.savedFilters.v1';
 
@@ -20,13 +21,15 @@ const YOKOHAMA_WARDS = [
 
 const KNOWN_CATEGORIES = ['体験','工作','演劇','外遊び','科学','音楽','読み聞かせ','スポーツ','自然','その他'];
 
-function yokokid() {
-  return {
+const clone = (x) => JSON.parse(JSON.stringify(x));
+
+document.addEventListener('alpine:init', () => {
+  Alpine.data('yokokid', () => ({
     loading: true,
     error: null,
     generatedAt: null,
     events: [],
-    filters: structuredClone(DEFAULT_FILTERS),
+    filters: clone(DEFAULT_FILTERS),
     savedFilters: [],
     appliedSavedId: null,
     newFilterName: '',
@@ -61,19 +64,19 @@ function yokokid() {
       this.loadSavedFilters();
       try {
         const res = await fetch('./data/events.json', { cache: 'no-cache' });
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        if (!res.ok) throw new Error('HTTP ' + res.status);
         const data = await res.json();
         this.generatedAt = data.generatedAt || null;
         this.events = data.events || [];
       } catch (e) {
-        this.error = `イベントデータの読み込みに失敗しました: ${e.message}`;
+        this.error = 'イベントデータの読み込みに失敗しました: ' + e.message;
       } finally {
         this.loading = false;
       }
     },
 
     get availableWards() {
-      const present = new Set(this.events.map(e => e.venue?.ward).filter(Boolean));
+      const present = new Set(this.events.map(e => e.venue && e.venue.ward).filter(Boolean));
       return YOKOHAMA_WARDS.filter(w => present.has(w));
     },
     get availableCategories() {
@@ -103,7 +106,6 @@ function yokokid() {
       }
 
       const filtered = this.events.filter(ev => {
-        // Date range — keep events with at least one occurrence inside [from, to].
         if (from && to) {
           const inRange = (ev.dates || []).some(d => {
             const s = dayjs(d.start);
@@ -111,44 +113,37 @@ function yokokid() {
           });
           if (!inRange) return false;
         }
-        // Age — event must accept this age (handle missing min/max as open-ended).
         if (f.age !== null && f.age !== undefined) {
-          const min = ev.ageMin ?? 0;
-          const max = ev.ageMax ?? 99;
+          const min = ev.ageMin == null ? 0 : ev.ageMin;
+          const max = ev.ageMax == null ? 99 : ev.ageMax;
           if (f.age < min || f.age > max) return false;
         }
-        // Wards
-        if (f.wards.length > 0 && !f.wards.includes(ev.venue?.ward)) return false;
-        // Price
+        if (f.wards.length > 0 && !f.wards.includes(ev.venue && ev.venue.ward)) return false;
         if (f.price !== 'any') {
-          const t = ev.price?.type;
-          const a = ev.price?.amount;
+          const t = ev.price && ev.price.type;
+          const a = ev.price && ev.price.amount;
           if (f.price === 'free' && t !== 'free') return false;
           if (f.price === 'under500' && !(t === 'free' || (typeof a === 'number' && a <= 500))) return false;
           if (f.price === 'under1000' && !(t === 'free' || (typeof a === 'number' && a <= 1000))) return false;
           if (f.price === 'under3000' && !(t === 'free' || (typeof a === 'number' && a <= 3000))) return false;
         }
-        // Indoor
         if (f.indoor === 'indoor' && ev.indoor !== true) return false;
         if (f.indoor === 'outdoor' && ev.indoor !== false) return false;
-        // Categories — match any.
         if (f.categories.length > 0) {
           const set = new Set(ev.categories || []);
           if (!f.categories.some(c => set.has(c))) return false;
         }
-        // Registration
         if (f.registration === 'required' && ev.registrationRequired !== true) return false;
         if (f.registration === 'notRequired' && ev.registrationRequired === true) return false;
         return true;
       });
 
-      // Sort by earliest upcoming date.
       filtered.sort((a, b) => dayjs(a.dates[0].start).valueOf() - dayjs(b.dates[0].start).valueOf());
       return filtered;
     },
 
     resetFilters() {
-      this.filters = structuredClone(DEFAULT_FILTERS);
+      this.filters = clone(DEFAULT_FILTERS);
       this.appliedSavedId = null;
     },
 
@@ -168,14 +163,14 @@ function yokokid() {
       if (!name) return;
       this.savedFilters.push({
         id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
-        name,
-        filters: structuredClone(this.filters),
+        name: name,
+        filters: clone(this.filters),
       });
       this.persistSavedFilters();
       this.newFilterName = '';
     },
     applySavedFilter(sf) {
-      this.filters = structuredClone(sf.filters);
+      this.filters = clone(sf.filters);
       this.appliedSavedId = sf.id;
     },
     deleteSavedFilter(idx) {
@@ -203,5 +198,5 @@ function yokokid() {
       if (!this.generatedAt) return '';
       return dayjs(this.generatedAt).format('YYYY/M/D HH:mm');
     },
-  };
-}
+  }));
+});
