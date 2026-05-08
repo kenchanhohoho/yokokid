@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T15:16:32+09:00",
+  "generatedAt": "2026-05-08T15:48:52+09:00",
   "events": [
     {
       "id": "kagakukan-04c478fd964e",
@@ -38,7 +38,7 @@
       "registrationRequired": false,
       "registrationDeadline": null,
       "url": "https://www.yokohama-kagakukan.jp/event/detail/925/1778166000/",
-      "fetchedAt": "2026-05-08T15:16:32+09:00"
+      "fetchedAt": "2026-05-08T15:48:52+09:00"
     },
     {
       "id": "kagakukan-878625243832",
@@ -77,7 +77,7 @@
       "registrationRequired": false,
       "registrationDeadline": null,
       "url": "https://www.yokohama-kagakukan.jp/event/detail/927/1778166000/",
-      "fetchedAt": "2026-05-08T15:16:32+09:00"
+      "fetchedAt": "2026-05-08T15:48:52+09:00"
     },
     {
       "id": "kagakukan-3ac5db656055",
@@ -116,7 +116,7 @@
       "registrationRequired": false,
       "registrationDeadline": null,
       "url": "https://www.yokohama-kagakukan.jp/event/detail/936/1778338800/",
-      "fetchedAt": "2026-05-08T15:16:32+09:00"
+      "fetchedAt": "2026-05-08T15:48:52+09:00"
     },
     {
       "id": "kagakukan-9173d0944e15",
@@ -155,7 +155,490 @@
       "registrationRequired": false,
       "registrationDeadline": null,
       "url": "https://www.yokohama-kagakukan.jp/event/detail/928/1780326000/",
-      "fetchedAt": "2026-05-08T15:16:32+09:00"
+      "fetchedAt": "2026-05-08T15:48:52+09:00"
+    },
+    {
+      "id": "zoorasia-3cd465ab3a60",
+      "title": "アカカワイノシシ誕生日特別ガイド",
+      "description": "よこはま動物園ズーラシアのイベント。",
+      "source": {
+        "id": "zoorasia",
+        "name": "よこはま動物園ズーラシア",
+        "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/event/"
+      },
+      "venue": {
+        "name": "よこはま動物園ズーラシア",
+        "address": "横浜市旭区上白根町1175-1",
+        "ward": "旭区",
+        "lat": 35.5046,
+        "lon": 139.5188
+      },
+      "dates": [
+        {
+          "start": "2026-06-12T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "ageText": "どなたでも",
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "text": "入園料が必要(詳細は公式ページ)"
+      },
+      "indoor": false,
+      "categories": [
+        "自然",
+        "体験"
+      ],
+      "registrationRequired": null,
+      "registrationDeadline": null,
+      "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/post-558780.php",
+      "fetchedAt": "2026-05-08T15:48:52+09:00"
+    },
+    {
+      "id": "zoorasia-02645a9b2f61",
+      "title": "いきものSOS展",
+      "description": "よこはま動物園ズーラシアのイベント。",
+      "source": {
+        "id": "zoorasia",
+        "name": "よこはま動物園ズーラシア",
+        "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/event/"
+      },
+      "venue": {
+        "name": "よこはま動物園ズーラシア",
+        "address": "横浜市旭区上白根町1175-1",
+        "ward": "旭区",
+        "lat": 35.5046,
+        "lon": 139.5188
+      },
+      "dates": [
+        {
+          "start": "2026-06-03T00:00:00+09:00",
+          "end": "2026-08-31T00:00:00+09:00"
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "ageText": "どなたでも",
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "text": "入園料が必要(詳細は公式ページ)"
+      },
+      "indoor": false,
+      "categories": [
+        "自然",
+        "体験"
+      ],
+      "registrationRequired": null,
+      "registrationDeadline": null,
+      "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/-sos2026.php",
+      "fetchedAt": "2026-05-08T15:48:52+09:00"
+    },
+    {
+      "id": "zoorasia-c7217e273cf0",
+      "title": "「世界キノボリカンガルーの日」イベントを開催します",
+      "description": "よこはま動物園ズーラシアのイベント。",
+      "source": {
+        "id": "zoorasia",
+        "name": "よこはま動物園ズーラシア",
+        "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/event/"
+      },
+      "venue": {
+        "name": "よこはま動物園ズーラシア",
+        "address": "横浜市旭区上白根町1175-1",
+        "ward": "旭区",
+        "lat": 35.5046,
+        "lon": 139.5188
+      },
+      "dates": [
+        {
+          "start": "2026-05-20T00:00:00+09:00",
+          "end": "2026-06-08T00:00:00+09:00"
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "ageText": "どなたでも",
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "text": "入園料が必要(詳細は公式ページ)"
+      },
+      "indoor": false,
+      "categories": [
+        "自然",
+        "体験"
+      ],
+      "registrationRequired": null,
+      "registrationDeadline": null,
+      "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/post-558776.php",
+      "fetchedAt": "2026-05-08T15:48:52+09:00"
+    },
+    {
+      "id": "zoorasia-018bb71ddaf4",
+      "title": "世界カワウソの日「カワウソはおったー（Otter）」を開催します！",
+      "description": "よこはま動物園ズーラシアのイベント。",
+      "source": {
+        "id": "zoorasia",
+        "name": "よこはま動物園ズーラシア",
+        "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/event/"
+      },
+      "venue": {
+        "name": "よこはま動物園ズーラシア",
+        "address": "横浜市旭区上白根町1175-1",
+        "ward": "旭区",
+        "lat": 35.5046,
+        "lon": 139.5188
+      },
+      "dates": [
+        {
+          "start": "2026-05-08T00:00:00+09:00",
+          "end": "2026-06-01T00:00:00+09:00"
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "ageText": "どなたでも",
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "text": "入園料が必要(詳細は公式ページ)"
+      },
+      "indoor": false,
+      "categories": [
+        "自然",
+        "体験"
+      ],
+      "registrationRequired": null,
+      "registrationDeadline": null,
+      "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/-otter.php",
+      "fetchedAt": "2026-05-08T15:48:52+09:00"
+    },
+    {
+      "id": "zoorasia-945741277eed",
+      "title": "JR横浜線と連携「よこはません どうぶつクイズラリー 2026」",
+      "description": "よこはま動物園ズーラシアのイベント。",
+      "source": {
+        "id": "zoorasia",
+        "name": "よこはま動物園ズーラシア",
+        "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/event/"
+      },
+      "venue": {
+        "name": "よこはま動物園ズーラシア",
+        "address": "横浜市旭区上白根町1175-1",
+        "ward": "旭区",
+        "lat": 35.5046,
+        "lon": 139.5188
+      },
+      "dates": [
+        {
+          "start": "2026-04-24T00:00:00+09:00",
+          "end": "2026-06-29T00:00:00+09:00"
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "ageText": "どなたでも",
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "text": "入園料が必要(詳細は公式ページ)"
+      },
+      "indoor": false,
+      "categories": [
+        "自然",
+        "体験"
+      ],
+      "registrationRequired": null,
+      "registrationDeadline": null,
+      "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/jr-2026.php",
+      "fetchedAt": "2026-05-08T15:48:52+09:00"
+    },
+    {
+      "id": "zoorasia-f12afa468834",
+      "title": "アカアシドゥクラングールの赤ちゃんの愛称投票について",
+      "description": "よこはま動物園ズーラシアのイベント。",
+      "source": {
+        "id": "zoorasia",
+        "name": "よこはま動物園ズーラシア",
+        "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/event/"
+      },
+      "venue": {
+        "name": "よこはま動物園ズーラシア",
+        "address": "横浜市旭区上白根町1175-1",
+        "ward": "旭区",
+        "lat": 35.5046,
+        "lon": 139.5188
+      },
+      "dates": [
+        {
+          "start": "2026-04-24T00:00:00+09:00",
+          "end": "2026-05-10T00:00:00+09:00"
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "ageText": "どなたでも",
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "text": "入園料が必要(詳細は公式ページ)"
+      },
+      "indoor": false,
+      "categories": [
+        "自然",
+        "体験"
+      ],
+      "registrationRequired": null,
+      "registrationDeadline": null,
+      "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/post-558744.php",
+      "fetchedAt": "2026-05-08T15:48:52+09:00"
+    },
+    {
+      "id": "zoorasia-b9c67a6e9491",
+      "title": "【令和8年度】チンパンジーに旬のおやつをプレゼント",
+      "description": "よこはま動物園ズーラシアのイベント。",
+      "source": {
+        "id": "zoorasia",
+        "name": "よこはま動物園ズーラシア",
+        "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/event/"
+      },
+      "venue": {
+        "name": "よこはま動物園ズーラシア",
+        "address": "横浜市旭区上白根町1175-1",
+        "ward": "旭区",
+        "lat": 35.5046,
+        "lon": 139.5188
+      },
+      "dates": [
+        {
+          "start": "2026-04-11T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "ageText": "どなたでも",
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "text": "入園料が必要(詳細は公式ページ)"
+      },
+      "indoor": false,
+      "categories": [
+        "自然",
+        "体験"
+      ],
+      "registrationRequired": null,
+      "registrationDeadline": null,
+      "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/post-558716.php",
+      "fetchedAt": "2026-05-08T15:48:52+09:00"
+    },
+    {
+      "id": "zoorasia-b5d3d9b29318",
+      "title": "企画展「うんち」",
+      "description": "よこはま動物園ズーラシアのイベント。",
+      "source": {
+        "id": "zoorasia",
+        "name": "よこはま動物園ズーラシア",
+        "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/event/"
+      },
+      "venue": {
+        "name": "よこはま動物園ズーラシア",
+        "address": "横浜市旭区上白根町1175-1",
+        "ward": "旭区",
+        "lat": 35.5046,
+        "lon": 139.5188
+      },
+      "dates": [
+        {
+          "start": "2026-03-04T00:00:00+09:00",
+          "end": "2026-06-01T00:00:00+09:00"
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "ageText": "どなたでも",
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "text": "入園料が必要(詳細は公式ページ)"
+      },
+      "indoor": false,
+      "categories": [
+        "自然",
+        "体験"
+      ],
+      "registrationRequired": null,
+      "registrationDeadline": null,
+      "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/post-558689.php",
+      "fetchedAt": "2026-05-08T15:48:52+09:00"
+    },
+    {
+      "id": "nogeyama-3627ab506c92",
+      "title": "野毛山動物園でバードウォッチング入門・春",
+      "description": "野毛山動物園のイベント。",
+      "source": {
+        "id": "nogeyama",
+        "name": "野毛山動物園",
+        "url": "https://www.hama-midorinokyokai.or.jp/zoo/nogeyama/event/"
+      },
+      "venue": {
+        "name": "野毛山動物園",
+        "address": "横浜市西区老松町63-10",
+        "ward": "西区",
+        "lat": 35.4445,
+        "lon": 139.6235
+      },
+      "dates": [
+        {
+          "start": "2026-05-23T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "ageText": "どなたでも",
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "text": "入園料が必要(詳細は公式ページ)"
+      },
+      "indoor": false,
+      "categories": [
+        "自然",
+        "体験"
+      ],
+      "registrationRequired": null,
+      "registrationDeadline": null,
+      "url": "https://www.hama-midorinokyokai.or.jp/zoo/nogeyama/details/bird2026.php",
+      "fetchedAt": "2026-05-08T15:48:52+09:00"
+    },
+    {
+      "id": "kodomonokuni-d63289be7cbd",
+      "title": "春のブラスフェスティバル　Spring Brass Festival 2026",
+      "description": "神奈川県と東京都の小学生・中学生の団体による演奏です。見ごたえ聴きごたえのあるコンサー...",
+      "source": {
+        "id": "kodomonokuni",
+        "name": "こどもの国",
+        "url": "https://www.kodomonokuni.org/event/"
+      },
+      "venue": {
+        "name": "こどもの国",
+        "address": "横浜市青葉区奈良町700",
+        "ward": "青葉区",
+        "lat": 35.5605,
+        "lon": 139.4863
+      },
+      "dates": [
+        {
+          "start": "2026-05-09T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "ageText": "どなたでも",
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "text": "入園料が必要(イベント参加費は別途)"
+      },
+      "indoor": false,
+      "categories": [
+        "外遊び",
+        "自然",
+        "体験"
+      ],
+      "registrationRequired": null,
+      "registrationDeadline": null,
+      "url": "https://www.kodomonokuni.org/event/event_topics/detail.html?id=141",
+      "fetchedAt": "2026-05-08T15:48:52+09:00"
+    },
+    {
+      "id": "kodomonokuni-80a9c944d5e3",
+      "title": "ミニ電車にのろう！",
+      "description": "JR東日本の人気列車「サフィール踊り子」「成田エクスプレス」のミニ電車がこどもの国にやっ...",
+      "source": {
+        "id": "kodomonokuni",
+        "name": "こどもの国",
+        "url": "https://www.kodomonokuni.org/event/"
+      },
+      "venue": {
+        "name": "こどもの国",
+        "address": "横浜市青葉区奈良町700",
+        "ward": "青葉区",
+        "lat": 35.5605,
+        "lon": 139.4863
+      },
+      "dates": [
+        {
+          "start": "2026-05-16T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "ageText": "どなたでも",
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "text": "入園料が必要(イベント参加費は別途)"
+      },
+      "indoor": false,
+      "categories": [
+        "外遊び",
+        "自然",
+        "体験"
+      ],
+      "registrationRequired": null,
+      "registrationDeadline": null,
+      "url": "https://www.kodomonokuni.org/event/event_topics/detail.html?id=280",
+      "fetchedAt": "2026-05-08T15:48:52+09:00"
+    },
+    {
+      "id": "kodomonokuni-8141b79301fd",
+      "title": "竹馬・フラフープであそぼう",
+      "description": "竹馬・フラフープ・なわとびなどの遊具を無料で貸し出しします。遊び方がわからない遊具は、...",
+      "source": {
+        "id": "kodomonokuni",
+        "name": "こどもの国",
+        "url": "https://www.kodomonokuni.org/event/"
+      },
+      "venue": {
+        "name": "こどもの国",
+        "address": "横浜市青葉区奈良町700",
+        "ward": "青葉区",
+        "lat": 35.5605,
+        "lon": 139.4863
+      },
+      "dates": [
+        {
+          "start": "2026-05-16T00:00:00+09:00",
+          "end": null
+        }
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "ageText": "どなたでも",
+      "price": {
+        "type": "paid",
+        "amount": null,
+        "text": "入園料が必要(イベント参加費は別途)"
+      },
+      "indoor": false,
+      "categories": [
+        "外遊び",
+        "自然",
+        "体験"
+      ],
+      "registrationRequired": null,
+      "registrationDeadline": null,
+      "url": "https://www.kodomonokuni.org/event/event_topics/detail.html?id=60",
+      "fetchedAt": "2026-05-08T15:48:52+09:00"
     }
   ]
 }
