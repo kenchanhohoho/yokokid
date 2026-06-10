@@ -1,164 +1,6 @@
 {
-  "generatedAt": "2026-06-09T16:40:01+09:00",
+  "generatedAt": "2026-06-10T17:01:35+09:00",
   "events": [
-    {
-      "id": "kagakukan-8276db33e888",
-      "title": "プラネタリウム　ドラえもん　時間のひみつ",
-      "description": "プラネタリウムのイベント。どなたでも",
-      "source": {
-        "id": "kagakukan",
-        "name": "はまぎん こども宇宙科学館",
-        "url": "https://www.yokohama-kagakukan.jp/event/"
-      },
-      "venue": {
-        "name": "はまぎん こども宇宙科学館",
-        "address": "横浜市磯子区洋光台5-2-1",
-        "ward": "磯子区",
-        "lat": 35.3601,
-        "lon": 139.6125
-      },
-      "dates": [
-        {
-          "start": "2026-04-25T00:00:00+09:00",
-          "end": "2026-07-17T00:00:00+09:00"
-        }
-      ],
-      "ageMin": 0,
-      "ageMax": 99,
-      "ageText": "どなたでも",
-      "price": {
-        "type": "paid",
-        "amount": null,
-        "text": "入館料が必要(詳細は公式ページ)"
-      },
-      "indoor": true,
-      "categories": [
-        "科学"
-      ],
-      "registrationRequired": false,
-      "registrationDeadline": null,
-      "url": "https://www.yokohama-kagakukan.jp/event/detail/927/1780930800/",
-      "fetchedAt": "2026-06-09T16:39:01+09:00"
-    },
-    {
-      "id": "kagakukan-516205567e6a",
-      "title": "H3ロケット6号機（30形態試験機）　パブリックビューイング",
-      "description": "サイエンス・ショウなどのイベント。どなたでも",
-      "source": {
-        "id": "kagakukan",
-        "name": "はまぎん こども宇宙科学館",
-        "url": "https://www.yokohama-kagakukan.jp/event/"
-      },
-      "venue": {
-        "name": "はまぎん こども宇宙科学館",
-        "address": "横浜市磯子区洋光台5-2-1",
-        "ward": "磯子区",
-        "lat": 35.3601,
-        "lon": 139.6125
-      },
-      "dates": [
-        {
-          "start": "2026-06-10T00:00:00+09:00",
-          "end": null
-        }
-      ],
-      "ageMin": 0,
-      "ageMax": 99,
-      "ageText": "どなたでも",
-      "price": {
-        "type": "paid",
-        "amount": null,
-        "text": "入館料が必要(詳細は公式ページ)"
-      },
-      "indoor": true,
-      "categories": [
-        "科学",
-        "体験"
-      ],
-      "registrationRequired": false,
-      "registrationDeadline": null,
-      "url": "https://www.yokohama-kagakukan.jp/event/detail/967/1781017200/",
-      "fetchedAt": "2026-06-09T16:39:01+09:00"
-    },
-    {
-      "id": "kagakukan-17c893310eb5",
-      "title": "読み聞かせ「かさ」",
-      "description": "読み聞かせのイベント。どなたでも",
-      "source": {
-        "id": "kagakukan",
-        "name": "はまぎん こども宇宙科学館",
-        "url": "https://www.yokohama-kagakukan.jp/event/"
-      },
-      "venue": {
-        "name": "はまぎん こども宇宙科学館",
-        "address": "横浜市磯子区洋光台5-2-1",
-        "ward": "磯子区",
-        "lat": 35.3601,
-        "lon": 139.6125
-      },
-      "dates": [
-        {
-          "start": "2026-06-13T00:00:00+09:00",
-          "end": null
-        }
-      ],
-      "ageMin": 0,
-      "ageMax": 99,
-      "ageText": "どなたでも",
-      "price": {
-        "type": "paid",
-        "amount": null,
-        "text": "入館料が必要(詳細は公式ページ)"
-      },
-      "indoor": true,
-      "categories": [
-        "読み聞かせ"
-      ],
-      "registrationRequired": false,
-      "registrationDeadline": null,
-      "url": "https://www.yokohama-kagakukan.jp/event/detail/931/1781276400/",
-      "fetchedAt": "2026-06-09T16:39:01+09:00"
-    },
-    {
-      "id": "kagakukan-7d2513b201c6",
-      "title": "ミニ実験「SとNとで　磁石のちから」",
-      "description": "サイエンス・ショウなどのイベント。どなたでも",
-      "source": {
-        "id": "kagakukan",
-        "name": "はまぎん こども宇宙科学館",
-        "url": "https://www.yokohama-kagakukan.jp/event/"
-      },
-      "venue": {
-        "name": "はまぎん こども宇宙科学館",
-        "address": "横浜市磯子区洋光台5-2-1",
-        "ward": "磯子区",
-        "lat": 35.3601,
-        "lon": 139.6125
-      },
-      "dates": [
-        {
-          "start": "2026-06-11T00:00:00+09:00",
-          "end": null
-        }
-      ],
-      "ageMin": 0,
-      "ageMax": 99,
-      "ageText": "どなたでも",
-      "price": {
-        "type": "paid",
-        "amount": null,
-        "text": "入館料が必要(詳細は公式ページ)"
-      },
-      "indoor": true,
-      "categories": [
-        "科学",
-        "体験"
-      ],
-      "registrationRequired": false,
-      "registrationDeadline": null,
-      "url": "https://www.yokohama-kagakukan.jp/event/detail/968/1781276400/",
-      "fetchedAt": "2026-06-09T16:39:01+09:00"
-    },
     {
       "id": "zoorasia-02645a9b2f61",
       "title": "【6/5追記】いきものSOS展",
@@ -197,7 +39,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/-sos2026.php",
-      "fetchedAt": "2026-06-09T16:39:02+09:00"
+      "fetchedAt": "2026-06-10T17:00:48+09:00"
     },
     {
       "id": "zoorasia-4e5040d42e58",
@@ -237,7 +79,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/post-558771.php",
-      "fetchedAt": "2026-06-09T16:39:02+09:00"
+      "fetchedAt": "2026-06-10T17:00:48+09:00"
     },
     {
       "id": "zoorasia-2f6fa4b84628",
@@ -277,7 +119,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/post-558792.php",
-      "fetchedAt": "2026-06-09T16:39:02+09:00"
+      "fetchedAt": "2026-06-10T17:00:48+09:00"
     },
     {
       "id": "zoorasia-c181264ba3ac",
@@ -317,7 +159,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/r8.php",
-      "fetchedAt": "2026-06-09T16:39:02+09:00"
+      "fetchedAt": "2026-06-10T17:00:48+09:00"
     },
     {
       "id": "zoorasia-adff03b4c0c5",
@@ -357,7 +199,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/post-558793.php",
-      "fetchedAt": "2026-06-09T16:39:02+09:00"
+      "fetchedAt": "2026-06-10T17:00:48+09:00"
     },
     {
       "id": "zoorasia-d126415d6598",
@@ -397,7 +239,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/-de.php",
-      "fetchedAt": "2026-06-09T16:39:02+09:00"
+      "fetchedAt": "2026-06-10T17:00:48+09:00"
     },
     {
       "id": "zoorasia-3cd465ab3a60",
@@ -437,7 +279,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/post-558780.php",
-      "fetchedAt": "2026-06-09T16:39:02+09:00"
+      "fetchedAt": "2026-06-10T17:00:48+09:00"
     },
     {
       "id": "zoorasia-945741277eed",
@@ -477,7 +319,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/jr-2026.php",
-      "fetchedAt": "2026-06-09T16:39:02+09:00"
+      "fetchedAt": "2026-06-10T17:00:48+09:00"
     },
     {
       "id": "zoorasia-b9c67a6e9491",
@@ -517,7 +359,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/zoorasia/details/2026/post-558716.php",
-      "fetchedAt": "2026-06-09T16:39:02+09:00"
+      "fetchedAt": "2026-06-10T17:00:48+09:00"
     },
     {
       "id": "nogeyama-af7a468cbd6f",
@@ -557,7 +399,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/nogeyama/details/tana-2026.php",
-      "fetchedAt": "2026-06-09T16:39:02+09:00"
+      "fetchedAt": "2026-06-10T17:00:48+09:00"
     },
     {
       "id": "nogeyama-df37083e5b20",
@@ -597,7 +439,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.hama-midorinokyokai.or.jp/zoo/nogeyama/details/giraffeday2026.php",
-      "fetchedAt": "2026-06-09T16:39:02+09:00"
+      "fetchedAt": "2026-06-10T17:00:48+09:00"
     },
     {
       "id": "kodomonokuni-95bca8231cb1",
@@ -638,7 +480,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.kodomonokuni.org/event/event_topics/detail.html?id=135",
-      "fetchedAt": "2026-06-09T16:39:03+09:00"
+      "fetchedAt": "2026-06-10T17:00:49+09:00"
     },
     {
       "id": "kodomonokuni-3dbd9d226e3b",
@@ -679,111 +521,72 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.kodomonokuni.org/event/event_topics/detail.html?id=72",
-      "fetchedAt": "2026-06-09T16:39:03+09:00"
+      "fetchedAt": "2026-06-10T17:00:49+09:00"
     },
     {
-      "id": "yokohama_city-0ef3ebeb1c09",
-      "title": "卓球サロン",
-      "description": "卓球を通して地域での仲間づくり、健康づくりを目的としたサロン 小学生以下は保護者同伴",
+      "id": "yokohama_city-d2b066679a97",
+      "title": "Dance Dance Dance",
+      "description": "カッコいいジャズダンス&HipHop 本気でダンスをやってみたい方のためのダンス教室です。",
       "source": {
         "id": "yokohama_city",
         "name": "横浜市 市民利用施設等イベント情報",
         "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
       },
       "venue": {
-        "name": "下永谷地域ケアプラザ",
-        "address": "下永谷地域ケアプラザ",
-        "ward": "港南区",
+        "name": "中本牧コミニュティハウス",
+        "address": "中本牧コミニュティハウス",
+        "ward": "中区",
         "lat": null,
         "lon": null
       },
       "dates": [
         {
-          "start": "2026-06-09T15:00:00+09:00",
-          "end": "2026-06-09T18:00:00+09:00"
+          "start": "2026-06-10T00:00:00+09:00",
+          "end": null
         }
       ],
-      "ageMin": 6,
-      "ageMax": 18,
-      "ageText": "こども・青少年  \n\t\t\t\t\t\t\t\t\t一般  \n\t\t\t\t\t\t\t\t\tシニア",
-      "price": {
-        "type": "free",
-        "amount": 0,
-        "text": "無料"
-      },
-      "indoor": null,
-      "categories": [
-        "体験"
-      ],
-      "registrationRequired": false,
-      "registrationDeadline": null,
-      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=98554",
-      "fetchedAt": "2026-06-09T16:39:18+09:00"
-    },
-    {
-      "id": "yokohama_city-a702445a8194",
-      "title": "～部活動応援企画～クラリネット初級レッスン2604",
-      "description": "初めて吹奏楽部に入って楽器がクラリネットになった方、クラリネットを基礎から学び直してみたい方、クラリネットの取り扱い方から演奏の基礎、そしてアンサンブルの基礎をクラリネット演奏家の先生に教えていただきます。",
-      "source": {
-        "id": "yokohama_city",
-        "name": "横浜市 市民利用施設等イベント情報",
-        "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
-      },
-      "venue": {
-        "name": "菅田地区センター",
-        "address": "菅田地区センター",
-        "ward": "神奈川区",
-        "lat": null,
-        "lon": null
-      },
-      "dates": [
-        {
-          "start": "2026-06-09T18:30:00+09:00",
-          "end": "2026-06-09T19:30:00+09:00"
-        }
-      ],
-      "ageMin": 6,
-      "ageMax": 18,
-      "ageText": "クラリネットを持参できる方",
+      "ageMin": 1,
+      "ageMax": 6,
+      "ageText": "乳幼児  \n\t\t\t\t\t\t\t\t\tこども・青少年",
       "price": {
         "type": "paid",
-        "amount": 8000,
-        "text": "8,000円(全10回)"
+        "amount": 3000,
+        "text": "全4回 3000円"
       },
-      "indoor": true,
+      "indoor": null,
       "categories": [
         "体験"
       ],
       "registrationRequired": true,
       "registrationDeadline": null,
-      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=109256",
-      "fetchedAt": "2026-06-09T16:39:19+09:00"
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=109914",
+      "fetchedAt": "2026-06-10T17:01:00+09:00"
     },
     {
-      "id": "yokohama_city-dccf5dd0660d",
-      "title": "にこにこII",
-      "description": "0歳児～未就園児とパパママの子育てひろば!広いスペースでのびのびあそぼう!",
+      "id": "yokohama_city-b390d7580816",
+      "title": "ことりの会のおはなしの時間",
+      "description": "絵本の読み聞かせ、わらべうた手遊びを楽しみます。",
       "source": {
         "id": "yokohama_city",
         "name": "横浜市 市民利用施設等イベント情報",
         "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
       },
       "venue": {
-        "name": "上笹下地域ケアプラザ",
-        "address": "上笹下地域ケアプラザ",
-        "ward": "磯子区",
+        "name": "大鳥中学校コミニュティハウス",
+        "address": "大鳥中学校コミニュティハウス",
+        "ward": "中区",
         "lat": null,
         "lon": null
       },
       "dates": [
         {
-          "start": "2026-06-09T10:00:00+09:00",
-          "end": "2026-06-09T11:30:00+09:00"
+          "start": "2026-06-10T15:30:00+09:00",
+          "end": "2026-06-10T16:00:00+09:00"
         }
       ],
-      "ageMin": 0,
-      "ageMax": 0,
-      "ageText": "0歳児～未就園児と保護者",
+      "ageMin": 1,
+      "ageMax": 6,
+      "ageText": "乳幼児  \n\t\t\t\t\t\t\t\t\tこども・青少年  \n\t\t\t\t\t\t\t\t\t一般",
       "price": {
         "type": "free",
         "amount": 0,
@@ -791,72 +594,72 @@
       },
       "indoor": null,
       "categories": [
-        "体験"
+        "読み聞かせ"
       ],
       "registrationRequired": false,
       "registrationDeadline": null,
-      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=89694",
-      "fetchedAt": "2026-06-09T16:39:22+09:00"
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=109899",
+      "fetchedAt": "2026-06-10T17:01:01+09:00"
     },
     {
-      "id": "yokohama_city-4cbddf579a7a",
-      "title": "乳幼児親子対象イベント",
-      "description": "0歳のお子さまと、保護者の方の交流の時間です♪ プレイルームでゆっくり遊びましょう♪ 普段出ていない赤ちゃん向けのおもちゃも用意します! センタースタッフも同室します、ぜひ遊びに来てくださいね。",
+      "id": "yokohama_city-9c2ec8fe255b",
+      "title": "0歳児とママの体操(1)",
+      "description": "3B体操の道具(ボール、ベル、ベルダー)を使って、遊びを取り入れながらお母さんの健康維持と、赤ちゃんとのコミュニケーションをはかります。",
       "source": {
         "id": "yokohama_city",
         "name": "横浜市 市民利用施設等イベント情報",
         "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
       },
       "venue": {
-        "name": "踊場地区センター",
-        "address": "プレイルーム開催",
-        "ward": "戸塚区",
+        "name": "釜利谷地区センター",
+        "address": "釜利谷地区センター",
+        "ward": "金沢区",
         "lat": null,
         "lon": null
       },
       "dates": [
         {
-          "start": "2026-06-09T00:00:00+09:00",
-          "end": null
+          "start": "2026-06-10T09:45:00+09:00",
+          "end": "2026-06-10T10:30:00+09:00"
         }
       ],
-      "ageMin": 0,
-      "ageMax": 6,
-      "ageText": "0歳児～未就学児の親子",
+      "ageMin": 1,
+      "ageMax": 1,
+      "ageText": "生後4か月から1歳未満の赤ちゃんとその保護者",
       "price": {
-        "type": "free",
-        "amount": 0,
-        "text": "無料"
+        "type": "paid",
+        "amount": 3600,
+        "text": "3,600円(6回分)"
       },
       "indoor": true,
       "categories": [
-        "体験"
+        "スポーツ"
       ],
-      "registrationRequired": false,
+      "registrationRequired": null,
       "registrationDeadline": null,
-      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=110442",
-      "fetchedAt": "2026-06-09T16:39:28+09:00"
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=108476",
+      "fetchedAt": "2026-06-10T17:01:06+09:00"
     },
     {
-      "id": "yokohama_city-10ceaddd5ba2",
-      "title": "上矢部せんたくん(1歳児と保護者)",
-      "description": "リズムに合わせて動いたり踊ったり、親子で楽しむ講座です。パラバルーンで他のお友達と一緒に遊び、ふれあいを楽しみ、お母さん同士の交流もできます。お父さんの参加も歓迎です。",
+      "id": "yokohama_city-9810c76c4bbb",
+      "title": "1歳児とママの体操(1)",
+      "description": "「赤ちゃんとママの体操」では3B体操の道具(ボール、ベル、ベルター)を使って、遊びを取り入れながらお母さんの産後の肩こり、腰痛、イライラ等を軽くする運動を行います。",
       "source": {
         "id": "yokohama_city",
         "name": "横浜市 市民利用施設等イベント情報",
         "url": "https://cgi.city.yokohama.lg.jp/common/event2/"
       },
       "venue": {
-        "name": "上矢部地区センター",
-        "address": "会議室1・2",
-        "ward": "戸塚区",
+        "name": "釜利谷地区センター",
+        "address": "釜利谷地区センター",
+        "ward": "金沢区",
         "lat": null,
         "lon": null
       },
       "dates": [
         {
-          "start": "2026-06-09T00:00:00+09:00",
-          "end": null
+          "start": "2026-06-10T09:45:00+09:00",
+          "end": "2026-06-10T10:30:00+09:00"
         }
       ],
       "ageMin": 1,
@@ -864,17 +667,17 @@
       "ageText": "1歳児と保護者",
       "price": {
         "type": "paid",
-        "amount": 900,
-        "text": "900円(全3回)"
+        "amount": 3600,
+        "text": "3,600円(6回分)"
       },
       "indoor": true,
       "categories": [
-        "体験"
+        "スポーツ"
       ],
-      "registrationRequired": true,
+      "registrationRequired": null,
       "registrationDeadline": null,
-      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=105710",
-      "fetchedAt": "2026-06-09T16:39:28+09:00"
+      "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=108478",
+      "fetchedAt": "2026-06-10T17:01:07+09:00"
     },
     {
       "id": "yokohama_city-058222aeaefd",
@@ -913,7 +716,7 @@
       "registrationRequired": true,
       "registrationDeadline": null,
       "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=109405",
-      "fetchedAt": "2026-06-09T16:39:30+09:00"
+      "fetchedAt": "2026-06-10T17:01:10+09:00"
     },
     {
       "id": "yokohama_city-2fa78ca532de",
@@ -952,7 +755,7 @@
       "registrationRequired": false,
       "registrationDeadline": null,
       "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=109301",
-      "fetchedAt": "2026-06-09T16:39:31+09:00"
+      "fetchedAt": "2026-06-10T17:01:10+09:00"
     },
     {
       "id": "yokohama_city-5a7efe48a81d",
@@ -992,7 +795,7 @@
       "registrationRequired": true,
       "registrationDeadline": null,
       "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=109252",
-      "fetchedAt": "2026-06-09T16:39:32+09:00"
+      "fetchedAt": "2026-06-10T17:01:11+09:00"
     },
     {
       "id": "yokohama_city-ed3271266098",
@@ -1031,7 +834,7 @@
       "registrationRequired": true,
       "registrationDeadline": null,
       "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=109253",
-      "fetchedAt": "2026-06-09T16:39:32+09:00"
+      "fetchedAt": "2026-06-10T17:01:12+09:00"
     },
     {
       "id": "yokohama_city-2c8b032ad27b",
@@ -1071,7 +874,7 @@
       "registrationRequired": true,
       "registrationDeadline": null,
       "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=109259",
-      "fetchedAt": "2026-06-09T16:39:33+09:00"
+      "fetchedAt": "2026-06-10T17:01:12+09:00"
     },
     {
       "id": "yokohama_city-cb881277a99d",
@@ -1110,7 +913,7 @@
       "registrationRequired": false,
       "registrationDeadline": null,
       "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=109994",
-      "fetchedAt": "2026-06-09T16:39:35+09:00"
+      "fetchedAt": "2026-06-10T17:01:14+09:00"
     },
     {
       "id": "yokohama_city-277a00b00da3",
@@ -1149,7 +952,7 @@
       "registrationRequired": true,
       "registrationDeadline": null,
       "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=109254",
-      "fetchedAt": "2026-06-09T16:39:37+09:00"
+      "fetchedAt": "2026-06-10T17:01:15+09:00"
     },
     {
       "id": "yokohama_city-07b405c4c0d4",
@@ -1188,7 +991,7 @@
       "registrationRequired": true,
       "registrationDeadline": null,
       "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=110782",
-      "fetchedAt": "2026-06-09T16:39:38+09:00"
+      "fetchedAt": "2026-06-10T17:01:16+09:00"
     },
     {
       "id": "yokohama_city-13abd24ec68b",
@@ -1227,7 +1030,7 @@
       "registrationRequired": true,
       "registrationDeadline": null,
       "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=110784",
-      "fetchedAt": "2026-06-09T16:39:38+09:00"
+      "fetchedAt": "2026-06-10T17:01:16+09:00"
     },
     {
       "id": "yokohama_city-5dcd3b3ec24b",
@@ -1266,7 +1069,7 @@
       "registrationRequired": false,
       "registrationDeadline": null,
       "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=110852",
-      "fetchedAt": "2026-06-09T16:39:40+09:00"
+      "fetchedAt": "2026-06-10T17:01:19+09:00"
     },
     {
       "id": "yokohama_city-1f56f6c5ade3",
@@ -1305,7 +1108,7 @@
       "registrationRequired": true,
       "registrationDeadline": null,
       "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=110649",
-      "fetchedAt": "2026-06-09T16:39:41+09:00"
+      "fetchedAt": "2026-06-10T17:01:19+09:00"
     },
     {
       "id": "yokohama_city-e13b0907e1a2",
@@ -1344,7 +1147,7 @@
       "registrationRequired": true,
       "registrationDeadline": null,
       "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=110765",
-      "fetchedAt": "2026-06-09T16:39:42+09:00"
+      "fetchedAt": "2026-06-10T17:01:20+09:00"
     },
     {
       "id": "yokohama_city-dddc7b2e7b0a",
@@ -1383,7 +1186,7 @@
       "registrationRequired": true,
       "registrationDeadline": null,
       "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=110651",
-      "fetchedAt": "2026-06-09T16:39:43+09:00"
+      "fetchedAt": "2026-06-10T17:01:21+09:00"
     },
     {
       "id": "yokohama_city-49bd33f78da4",
@@ -1422,7 +1225,7 @@
       "registrationRequired": true,
       "registrationDeadline": null,
       "url": "https://cgi.city.yokohama.lg.jp/common/event2/event_detail.html?id=39351",
-      "fetchedAt": "2026-06-09T16:39:45+09:00"
+      "fetchedAt": "2026-06-10T17:01:23+09:00"
     },
     {
       "id": "yokohama_museum-bc72f79e7e75",
@@ -1462,7 +1265,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://yokohama.art.museum/event/fz_20260409/",
-      "fetchedAt": "2026-06-09T16:39:48+09:00"
+      "fetchedAt": "2026-06-10T17:01:25+09:00"
     },
     {
       "id": "yokohama_museum-f68801f4c778",
@@ -1502,7 +1305,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://yokohama.art.museum/event/nobi20264-9/",
-      "fetchedAt": "2026-06-09T16:39:48+09:00"
+      "fetchedAt": "2026-06-10T17:01:25+09:00"
     },
     {
       "id": "yokohama_museum-d2e1938ada72",
@@ -1542,7 +1345,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://yokohama.art.museum/event/styiroboat/",
-      "fetchedAt": "2026-06-09T16:39:48+09:00"
+      "fetchedAt": "2026-06-10T17:01:25+09:00"
     },
     {
       "id": "yokohama_museum-35684eff0eeb",
@@ -1582,7 +1385,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://yokohama.art.museum/event/hajimete8/",
-      "fetchedAt": "2026-06-09T16:39:48+09:00"
+      "fetchedAt": "2026-06-10T17:01:25+09:00"
     },
     {
       "id": "yokohama_museum-f3c2466a7684",
@@ -1622,7 +1425,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://yokohama.art.museum/event/puppet/",
-      "fetchedAt": "2026-06-09T16:39:48+09:00"
+      "fetchedAt": "2026-06-10T17:01:25+09:00"
     },
     {
       "id": "yokohama_museum-75622d153a0c",
@@ -1662,7 +1465,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://yokohama.art.museum/event/frameart/",
-      "fetchedAt": "2026-06-09T16:39:48+09:00"
+      "fetchedAt": "2026-06-10T17:01:25+09:00"
     },
     {
       "id": "hakkeijima-4b72c2648cc3",
@@ -1702,7 +1505,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.seaparadise.co.jp/ps/4527/index_1_1.html",
-      "fetchedAt": "2026-06-09T16:39:49+09:00"
+      "fetchedAt": "2026-06-10T17:01:26+09:00"
     },
     {
       "id": "hakkeijima-c79484f9f927",
@@ -1743,7 +1546,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.seaparadise.co.jp/ps/event/ajisaimatsuri.html",
-      "fetchedAt": "2026-06-09T16:39:49+09:00"
+      "fetchedAt": "2026-06-10T17:01:26+09:00"
     },
     {
       "id": "hakkeijima-7dfc6fb302da",
@@ -1782,7 +1585,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.seaparadise.co.jp/ps/4527/index_1_4.html",
-      "fetchedAt": "2026-06-09T16:39:49+09:00"
+      "fetchedAt": "2026-06-10T17:01:26+09:00"
     },
     {
       "id": "hakkeijima-914ec596d2a7",
@@ -1821,7 +1624,7 @@
       "registrationRequired": null,
       "registrationDeadline": null,
       "url": "https://www.seaparadise.co.jp/ps/4527/index_1_4_1.html",
-      "fetchedAt": "2026-06-09T16:39:49+09:00"
+      "fetchedAt": "2026-06-10T17:01:26+09:00"
     },
     {
       "id": "yokohama_kanko-7f06600d2c2e",
@@ -1862,7 +1665,7 @@
       "registrationRequired": true,
       "registrationDeadline": null,
       "url": "https://www.city.yokohama.lg.jp/kanko-bunka/kanko-event/eventannai/kyoku-sagasu/bunka/74mssjjisedai.html",
-      "fetchedAt": "2026-06-09T16:39:54+09:00"
+      "fetchedAt": "2026-06-10T17:01:30+09:00"
     },
     {
       "id": "yokohama_kanko-99bcd60d9760",
@@ -1902,7 +1705,7 @@
       "registrationRequired": true,
       "registrationDeadline": null,
       "url": "https://www.city.yokohama.lg.jp/kanko-bunka/kanko-event/eventannai/kyoku-sagasu/bunka/jscc67jisedai.html",
-      "fetchedAt": "2026-06-09T16:39:55+09:00"
+      "fetchedAt": "2026-06-10T17:01:30+09:00"
     },
     {
       "id": "yokohama_kanko-4cd658b048a0",
@@ -1941,7 +1744,7 @@
       "registrationRequired": true,
       "registrationDeadline": null,
       "url": "https://www.city.yokohama.lg.jp/kanko-bunka/kanko-event/eventannai/kyoku-sagasu/kenchiku/20260628kengaku.html",
-      "fetchedAt": "2026-06-09T16:39:55+09:00"
+      "fetchedAt": "2026-06-10T17:01:31+09:00"
     },
     {
       "id": "mitsuzawa_yc-cde6db6c58ad",
@@ -1980,7 +1783,7 @@
       "registrationRequired": true,
       "registrationDeadline": null,
       "url": "https://yokohama-sport.jp/mitsuzawa-yc-ysa/information/726/",
-      "fetchedAt": "2026-06-09T16:39:58+09:00"
+      "fetchedAt": "2026-06-10T17:01:33+09:00"
     },
     {
       "id": "mitsuzawa_yc-d5284bb45ba7",
@@ -2019,7 +1822,7 @@
       "registrationRequired": true,
       "registrationDeadline": null,
       "url": "https://yokohama-sport.jp/mitsuzawa-yc-ysa/information/700/",
-      "fetchedAt": "2026-06-09T16:39:58+09:00"
+      "fetchedAt": "2026-06-10T17:01:33+09:00"
     },
     {
       "id": "mitsuzawa_yc-ad6268fcebe5",
@@ -2058,7 +1861,7 @@
       "registrationRequired": true,
       "registrationDeadline": null,
       "url": "https://yokohama-sport.jp/mitsuzawa-yc-ysa/information/2322/",
-      "fetchedAt": "2026-06-09T16:39:59+09:00"
+      "fetchedAt": "2026-06-10T17:01:34+09:00"
     },
     {
       "id": "mitsuzawa_yc-b6e66c5e6929",
@@ -2098,7 +1901,7 @@
       "registrationRequired": true,
       "registrationDeadline": null,
       "url": "https://yokohama-sport.jp/mitsuzawa-yc-ysa/information/1419/",
-      "fetchedAt": "2026-06-09T16:40:00+09:00"
+      "fetchedAt": "2026-06-10T17:01:35+09:00"
     },
     {
       "id": "mitsuzawa_yc-2093dcfc9ac2",
@@ -2139,7 +1942,7 @@
       "registrationRequired": true,
       "registrationDeadline": null,
       "url": "https://yokohama-sport.jp/mitsuzawa-yc-ysa/information/1701/",
-      "fetchedAt": "2026-06-09T16:40:01+09:00"
+      "fetchedAt": "2026-06-10T17:01:35+09:00"
     }
   ]
 }
